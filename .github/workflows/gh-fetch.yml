@@ -1,0 +1,48 @@
+name: Fetch Star Data
+
+on:
+  schedule:
+    - cron: "0 18 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install gh dependencies
+        run: cd gh && pnpm install --frozen-lockfile
+
+      - name: Fetch star data
+        env:
+          GITHUB_TOKENS: ${{ secrets.GITHUB_TOKENS }}
+          GCP_SERVICE_ACCOUNT_BIGQUERY: ${{ secrets.GCP_SERVICE_ACCOUNT_BIGQUERY }}
+        run: cd gh && pnpm run star:fetch
+
+      - name: Commit star.db
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gh/star.db
+          if git diff --cached --quiet; then
+            echo "star.db unchanged, nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: update star.db"
+          git push

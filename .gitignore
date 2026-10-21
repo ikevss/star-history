@@ -54,3 +54,6 @@ gh/data/
 # gh event pipeline
 gh/event.db
 gh/archive-data/
+
+# pnpm content-addressable store (created locally by pnpm install)
+.pnpm-store/

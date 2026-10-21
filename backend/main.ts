@@ -285,10 +285,12 @@ const startServer = async () => {
 .----)   |      |  |     /  _____  \\  |  |\\  \\----.   |  |  |  | |  | .----)   |      |  |     |  \`--'  | |  |\\  \\----.   |  |
 |_______/       |__|    /__/     \\__\\ | _| \`._____|   |__|  |__| |__| |_______/       |__|      \\______/  | _| \`._____|   |__|
 `;
-  serve({ fetch: app.fetch, port: 8080 }, () => {
+  const port = Number(process.env.PORT) || 8080;
+
+  serve({ fetch: app.fetch, port }, () => {
     console.log(banner);
     console.log(`  commit: ${process.env.GIT_COMMIT || "unknown"}\n`);
-    logger.info("server running on port 8080");
+    logger.info(`server running on port ${port}`);
   });
 };
 

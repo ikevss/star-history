@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: star-history-api
+    runtime: docker
+    plan: free
+    region: oregon
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /healthz
+    dockerContext: .
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: GITHUB_TOKENS
+        sync: false
+      - key: LOG_LEVEL
+        value: info
+      - key: CACHE_STAR_MAX_MB
+        value: "64"
+      - key: CACHE_STAR_MAX_ENTRIES
+        value: "2000"
+      - key: CACHE_SVG_MAX_MB
+        value: "128"
+      - key: CACHE_SVG_MAX_ENTRIES
+        value: "1000"
+      - key: CACHE_OG_MAX_MB
+        value: "64"
+      - key: CACHE_OG_MAX_ENTRIES
+        value: "500"

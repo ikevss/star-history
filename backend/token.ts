@@ -14,11 +14,7 @@ const envFilePath = process.env.ENVPATH || ENV_PATH_IN_RENDER;
 const savedTokens: string[] = [];
 let index = 0;
 
-// Tokens that hit rate limit are cooled down for 15 minutes.
-const COOLDOWN_MS = 15 * 60 * 1000;
-const exhaustedUntil = new Map<string, number>();
-
-export const initTokenFromEnv = async () => {
+function readTokenFile(): string[] {
   if (!fs.existsSync(envFilePath)) {
     logger.error("Token file not found with path ", envFilePath);
     process.exit(-1);
@@ -28,10 +24,24 @@ export const initTokenFromEnv = async () => {
     logger.error("Token not found");
     process.exit(-1);
   }
+  return envTokenString.split(/\r?\n/);
+}
 
-  const tokenList = envTokenString.split(/\r?\n/);
+// Tokens that hit rate limit are cooled down for 15 minutes.
+const COOLDOWN_MS = 15 * 60 * 1000;
+const exhaustedUntil = new Map<string, number>();
+
+export const initTokenFromEnv = async () => {
+  const tokenList = process.env.GITHUB_TOKENS
+    ? process.env.GITHUB_TOKENS.split(/\r?\n/)
+    : readTokenFile();
+
+  const usableTokens = tokenList
+    .map((t) => t.trim())
+    .filter((t) => t && !t.startsWith("#"));
+
   // Call GitHub API to check token usability
-  for (const token of tokenList) {
+  for (const token of usableTokens) {
     try {
       await api.getRepoStargazersCount("star-history/star-history", token);
       savedTokens.push(token);

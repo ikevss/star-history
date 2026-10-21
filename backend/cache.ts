@@ -62,11 +62,22 @@ export function getAllCacheStats() {
 
 // --- Caches ---
 
+const MB = 1024 * 1024;
 const TTL_24H = 1000 * 60 * 60 * 24;
 
+function readMb(name: string, fallback: number): number {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) && value > 0 ? value * MB : fallback * MB;
+}
+
+function readCount(name: string, fallback: number): number {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
 const cache = new LRUCache<string, RepoData>({
-  max: 10000,
-  maxSize: 1024 * 1024 * 1024,
+  max: readCount("CACHE_STAR_MAX_ENTRIES", 2000),
+  maxSize: readMb("CACHE_STAR_MAX_MB", 64),
   sizeCalculation: (value: RepoData) => utils.calcBytes(value),
   ttl: TTL_24H,
   updateAgeOnGet: false,
@@ -74,8 +85,8 @@ const cache = new LRUCache<string, RepoData>({
 
 // Cache for rendered OG card SVGs, keyed by repo name.
 export const ogCardCache = new LRUCache<string, string>({
-  max: 1000,
-  maxSize: 200 * 1024 * 1024,
+  max: readCount("CACHE_OG_MAX_ENTRIES", 500),
+  maxSize: readMb("CACHE_OG_MAX_MB", 64),
   sizeCalculation: (value: string) => Buffer.byteLength(value),
   ttl: TTL_24H,
   updateAgeOnGet: false,
@@ -83,8 +94,8 @@ export const ogCardCache = new LRUCache<string, string>({
 
 // Cache for rendered chart SVGs, keyed by normalized query string.
 export const svgCache = new LRUCache<string, string>({
-  max: 2000,
-  maxSize: 400 * 1024 * 1024,
+  max: readCount("CACHE_SVG_MAX_ENTRIES", 1000),
+  maxSize: readMb("CACHE_SVG_MAX_MB", 128),
   sizeCalculation: (value: string) => Buffer.byteLength(value),
   ttl: TTL_24H,
   updateAgeOnGet: false,

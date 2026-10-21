@@ -6,6 +6,6 @@ export const MIN_CHART_WIDTH = 600
 
 export const EASTER_EGG_REPOS = new Set(["openclaw/openclaw"])
 
-export const SITE_URL = "https://star-history.com"
-export const API_URL = "https://api.star-history.com"
-export const NEWSLETTER_URL = "https://newsletter.star-history.com/subscribe"
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://star-history.com"
+export const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.star-history.com"
+export const NEWSLETTER_URL = process.env.NEXT_PUBLIC_NEWSLETTER_URL || "https://newsletter.star-history.com/subscribe"

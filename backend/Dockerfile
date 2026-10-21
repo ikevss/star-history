@@ -1,3 +1,21 @@
+# ---- Stage 1: generate gh/data JSON from the committed gh/star.db ----
+# Uses a glibc base (node:20-slim) so better-sqlite3 resolves a prebuilt binary
+# or compiles from source; the runtime stage stays on alpine.
+FROM node:20-slim AS data
+
+RUN corepack enable && corepack prepare pnpm@9 --activate
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends python3 make g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /data
+COPY gh/package.json gh/pnpm-lock.yaml ./
+RUN pnpm i
+
+COPY gh/ ./
+RUN pnpm run star:generate
+
+# ---- Stage 2: runtime ----
 FROM node:20-alpine
 
 ARG GIT_COMMIT
@@ -22,8 +40,8 @@ RUN cd backend && pnpm i
 COPY shared/ ./shared/
 COPY backend/ ./backend/
 
-# Copy gh data
-COPY gh/data/repos.json ./gh/data/repos.json
+# Copy generated gh data (gh/data/ is gitignored, so it cannot be copied from the repo)
+COPY --from=data /data/data ./gh/data
 
 # Expose port
 EXPOSE 8080
