@@ -54,7 +54,10 @@ namespace utils {
 
     export function convertSVGToDataURL(svgElement: SVGSVGElement) {
         const xml = new XMLSerializer().serializeToString(svgElement)
-        const encodedData = window.btoa(xml)
+        const bytes = new TextEncoder().encode(xml)
+        let binary = ""
+        for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i])
+        const encodedData = window.btoa(binary)
         return `data:image/svg+xml;base64,${encodedData}`
     }
 

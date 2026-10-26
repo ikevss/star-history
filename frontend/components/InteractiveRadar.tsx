@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react"
 import type { RepoAttributes } from "@shared/types/gh"
 
-const LABELS = ["Stars", "New Stars", "Issues Closed", "Contributors", "Pushes", "Forks"]
+const LABELS = ["关注", "本周新增", "已解决问题", "贡献者", "代码提交", "复刻"]
 const KEYS: (keyof RepoAttributes)[] = ["stars", "new_stars", "issues_closed", "contributors", "pushes", "forks"]
 
 const SIZE = 400

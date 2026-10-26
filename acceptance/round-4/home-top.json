@@ -1,0 +1,51 @@
+{
+  "url": "https://star-history-3wn.pages.dev/",
+  "width": 1440,
+  "height": 900,
+  "mobile": false,
+  "startedAt": "2026-10-26T09:14:16.200Z",
+  "title": "Starboard · 现在什么技术在起飞",
+  "finalUrl": "https://star-history-3wn.pages.dev/",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 900
+    },
+    "docScrollWidth": 1425,
+    "docClientWidth": 1425,
+    "bodyScrollWidth": 1425,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 1,
+    "truncated": [
+      {
+        "tag": "SPAN",
+        "cls": "truncate text-[15px] font-semibold text-neutral-900",
+        "text": "system-prompts-and-models-of-ai-tools",
+        "scrollWidth": 298,
+        "clientWidth": 236
+      }
+    ]
+  },
+  "evalResults": [
+    {
+      "expr": "JSON.stringify((()=>{const g=Array.from(document.querySelectorAll(\"a\")).find(a=>a.href.includes(\"github.com\"));return {topRightLink:g?{href:g.href,txt:g.innerText.trim(),aria:g.getAttribute(\"aria-labe",
+      "value": "{\"topRightLink\":{\"href\":\"https://github.com/star-history/star-history\",\"txt\":\"9,649\",\"aria\":\"Star star-history/star-history on GitHub\"},\"logoImg\":{\"src\":\"/assets/logo-icon.png\",\"alt\":\"Starboard\"}}"
+    }
+  ],
+  "bodyText": null,
+  "shotPath": null,
+  "timings": {
+    "loadMs": 1375,
+    "loadEventFired": true,
+    "waitMs": 3500,
+    "totalMs": 4879
+  },
+  "finishedAt": "2026-10-26T09:14:21.167Z"
+}

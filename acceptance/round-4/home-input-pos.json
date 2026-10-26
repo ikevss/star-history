@@ -1,0 +1,51 @@
+{
+  "url": "https://star-history-3wn.pages.dev/",
+  "width": 1440,
+  "height": 900,
+  "mobile": false,
+  "startedAt": "2026-10-26T09:11:52.491Z",
+  "title": "Starboard · 现在什么技术在起飞",
+  "finalUrl": "https://star-history-3wn.pages.dev/",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 900
+    },
+    "docScrollWidth": 1425,
+    "docClientWidth": 1425,
+    "bodyScrollWidth": 1425,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 1,
+    "truncated": [
+      {
+        "tag": "SPAN",
+        "cls": "truncate text-[15px] font-semibold text-neutral-900",
+        "text": "system-prompts-and-models-of-ai-tools",
+        "scrollWidth": 298,
+        "clientWidth": 236
+      }
+    ]
+  },
+  "evalResults": [
+    {
+      "expr": "JSON.stringify((()=>{const i=document.querySelector(\"input\");if(!i)return null;const r=i.getBoundingClientRect();const cs=getComputedStyle(i);const p=i.closest(\"div\");return {rect:{x:Math.round(r.x),y",
+      "value": "{\"rect\":{\"x\":427,\"y\":1752,\"w\":510,\"h\":44},\"display\":\"block\",\"visibility\":\"visible\",\"opacity\":\"1\",\"parentDisplay\":\"flex\",\"ancestors\":[\"INPUT.h-11 min-w-0 grow bg-transparent px-3 te\",\"DIV.flex w-full items-stretch overflow-hidde\",\"DIV.mx-auto mt-5 w-full max-w-xl\",\"SECTION.mx-auto mt-14 w-full max-w-3xl px-4\",\"MAIN.w-full grow\",\"DIV.relative flex min-h-screen w-full flex-c\"],\"docHeight\":3087,\"viewportH\":900,\"inViewport\":false}"
+    }
+  ],
+  "bodyText": null,
+  "shotPath": null,
+  "timings": {
+    "loadMs": 1308,
+    "loadEventFired": true,
+    "waitMs": 4000,
+    "totalMs": 5313
+  },
+  "finishedAt": "2026-10-26T09:11:57.876Z"
+}

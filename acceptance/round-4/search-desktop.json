@@ -1,0 +1,125 @@
+{
+  "width": 1440,
+  "results": [
+    {
+      "scenario": "valid-vuejs-core",
+      "input": "vuejs/core",
+      "hasInput": true,
+      "typed": "vuejs/core",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "navigatedAwayFromHome": false,
+      "dialog": null,
+      "tokenDetected": false,
+      "tokenSnippet": null,
+      "consoleErrors": [],
+      "exceptions": [],
+      "netBad": [],
+      "errorCount": 0,
+      "exceptionCount": 0,
+      "badCount": 0,
+      "state": {
+        "placeholder": "输入项目名，例如 vuejs/core",
+        "inputVal": "vuejs/core",
+        "goBtn": false
+      },
+      "bodyHead": "Starboard Blog 使用说明 9,649 数据周期 · Feb 23 – Mar 1, 2026 当前展示的是最近一次完整统计周期，最新一周仍在采集。 现在什么技术在起飞？ 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 全部 20 AI 13 前端 1 后端 3 学习资源 3 1 openclaw/ openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 +7,184 关注 · 本周 共 24.6万 AI 2 x1xhlol/ system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open "
+    },
+    {
+      "scenario": "notexist-slash-notexist",
+      "input": "notexist/notexist",
+      "hasInput": true,
+      "typed": "notexist/notexist",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "navigatedAwayFromHome": false,
+      "dialog": null,
+      "tokenDetected": false,
+      "tokenSnippet": null,
+      "consoleErrors": [],
+      "exceptions": [],
+      "netBad": [],
+      "errorCount": 0,
+      "exceptionCount": 0,
+      "badCount": 0,
+      "state": {
+        "placeholder": "输入项目名，例如 vuejs/core",
+        "inputVal": "notexist/notexist",
+        "goBtn": false
+      },
+      "bodyHead": "Starboard Blog 使用说明 9,649 数据周期 · Feb 23 – Mar 1, 2026 当前展示的是最近一次完整统计周期，最新一周仍在采集。 现在什么技术在起飞？ 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 全部 20 AI 13 前端 1 后端 3 学习资源 3 1 openclaw/ openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 +7,184 关注 · 本周 共 24.6万 AI 2 x1xhlol/ system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open "
+    },
+    {
+      "scenario": "star-history-slash-star-history",
+      "input": "star-history/star-history",
+      "hasInput": true,
+      "typed": "star-history/star-history",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "navigatedAwayFromHome": false,
+      "dialog": null,
+      "tokenDetected": false,
+      "tokenSnippet": null,
+      "consoleErrors": [],
+      "exceptions": [],
+      "netBad": [],
+      "errorCount": 0,
+      "exceptionCount": 0,
+      "badCount": 0,
+      "state": {
+        "placeholder": "输入项目名，例如 vuejs/core",
+        "inputVal": "star-history/star-history",
+        "goBtn": false
+      },
+      "bodyHead": "Starboard Blog 使用说明 9,649 数据周期 · Feb 23 – Mar 1, 2026 当前展示的是最近一次完整统计周期，最新一周仍在采集。 现在什么技术在起飞？ 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 全部 20 AI 13 前端 1 后端 3 学习资源 3 1 openclaw/ openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 +7,184 关注 · 本周 共 24.6万 AI 2 x1xhlol/ system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open "
+    },
+    {
+      "scenario": "empty-string",
+      "input": "",
+      "hasInput": true,
+      "typed": "",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "navigatedAwayFromHome": false,
+      "dialog": null,
+      "tokenDetected": false,
+      "tokenSnippet": null,
+      "consoleErrors": [],
+      "exceptions": [],
+      "netBad": [],
+      "errorCount": 0,
+      "exceptionCount": 0,
+      "badCount": 0,
+      "state": {
+        "placeholder": "输入项目名，例如 vuejs/core",
+        "inputVal": "",
+        "goBtn": false
+      },
+      "bodyHead": "Starboard Blog 使用说明 9,649 数据周期 · Feb 23 – Mar 1, 2026 当前展示的是最近一次完整统计周期，最新一周仍在采集。 现在什么技术在起飞？ 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 全部 20 AI 13 前端 1 后端 3 学习资源 3 1 openclaw/ openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 +7,184 关注 · 本周 共 24.6万 AI 2 x1xhlol/ system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open "
+    },
+    {
+      "scenario": "garbage-chars",
+      "input": "!!@@##",
+      "hasInput": true,
+      "typed": "!!@@##",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "navigatedAwayFromHome": false,
+      "dialog": null,
+      "tokenDetected": false,
+      "tokenSnippet": null,
+      "consoleErrors": [],
+      "exceptions": [],
+      "netBad": [],
+      "errorCount": 0,
+      "exceptionCount": 0,
+      "badCount": 0,
+      "state": {
+        "placeholder": "输入项目名，例如 vuejs/core",
+        "inputVal": "!!@@##",
+        "goBtn": false
+      },
+      "bodyHead": "Starboard Blog 使用说明 9,649 数据周期 · Feb 23 – Mar 1, 2026 当前展示的是最近一次完整统计周期，最新一周仍在采集。 现在什么技术在起飞？ 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 全部 20 AI 13 前端 1 后端 3 学习资源 3 1 openclaw/ openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 +7,184 关注 · 本周 共 24.6万 AI 2 x1xhlol/ system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open "
+    }
+  ]
+}

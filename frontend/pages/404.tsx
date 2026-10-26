@@ -1,4 +1,4 @@
-import { useRouter } from "next/router"
+import Head from "next/head"
 import Link from "next/link"
 import type { GetStaticProps, NextPage } from "next"
 import { formatNumber } from "../helpers/format"
@@ -10,55 +10,34 @@ interface NotFoundProps {
 }
 
 const NotFound: NextPage<NotFoundProps> = ({ minStars }) => {
-    const router = useRouter()
-    const pathname = router.asPath.split("?")[0].split("#")[0]
-    const segments = pathname.split("/").filter(Boolean)
+    const title = "页面不存在 · Starboard"
 
-    // Detect owner/repo pattern
-    const isRepoPath = segments.length === 2 && !segments[0].startsWith("_") && segments[0] !== "blog"
-    const isBlogPath = segments.length === 2 && segments[0] === "blog"
-
-    if (isRepoPath) {
-        const repoName = segments.join("/")
-        return (
+    return (
+        <>
+            <Head>
+                <title>{title}</title>
+                <meta name="robots" content="noindex" />
+            </Head>
             <PageShell>
-                <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl overflow-hidden">
-                    <div className="px-5 py-16 text-center">
-                        <p className="text-4xl mb-3" role="img" aria-label="Telescope">🔭</p>
-                        <h1 className="text-lg font-semibold text-neutral-800">
-                            <span className="font-mono">{repoName}</span> not found
+                <div className="w-full max-w-2xl overflow-hidden rounded-2xl border-2 border-neutral-900 bg-white shadow-[4px_4px_0_0_#363636]">
+                    <div className="px-5 py-14 text-center">
+                        <p className="mb-3 text-4xl" role="img" aria-label="望远镜">🔭</p>
+                        <h1 className="text-lg font-semibold text-neutral-800" style={{ fontFamily: "xkcd, cursive" }}>
+                            这个页面走丢了
                         </h1>
-                        <p className="text-sm text-neutral-500 mt-2">
-                            We only track repositories with over {formatNumber(minStars)} stars. Try another repository above.
+                        <p className="mt-2 text-sm leading-6 text-neutral-500">
+                            我们目前只收录关注数超过 {formatNumber(minStars)} 的开源项目，你想看的项目可能还没进榜。
                         </p>
+                        <Link
+                            href="/"
+                            className="mt-6 inline-flex items-center rounded-lg border-2 border-neutral-900 bg-neutral-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
+                        >
+                            返回首页看看什么在起飞
+                        </Link>
                     </div>
                 </div>
             </PageShell>
-        )
-    }
-
-    if (isBlogPath) {
-        return (
-            <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
-                <p className="text-center leading-8 text-lg text-dark font-medium">Oops! Article not found.</p>
-                <p className="text-center mt-2">
-                    <Link href="/blog" className="link-action">
-                        Back to blog list
-                    </Link>
-                </p>
-            </div>
-        )
-    }
-
-    return (
-        <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
-            <p className="text-lg font-medium">404, Not Found.</p>
-            <p className="text-sm text-neutral-500 mt-2">
-                <Link href="/" className="link-action">
-                    Go to star-history.com
-                </Link>
-            </p>
-        </div>
+        </>
     )
 }
 

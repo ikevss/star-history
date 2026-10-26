@@ -1,0 +1,38 @@
+{
+  "url": "https://star-history-3wn.pages.dev/vuejs/core",
+  "width": 1440,
+  "height": 1200,
+  "mobile": false,
+  "startedAt": "2026-10-26T08:58:19.087Z",
+  "title": "vuejs/core · 53.1k 关注",
+  "finalUrl": "https://star-history-3wn.pages.dev/vuejs/core",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1200
+    },
+    "docScrollWidth": 1440,
+    "docClientWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 0,
+    "truncated": []
+  },
+  "evalResults": [],
+  "bodyText": "Go\n返回首页\n 分享\nGLOBAL RANK\n#340\nOct 26, 2026\nGLOBAL RANK\n#340\nOct 26, 2026\nvuejs\n/\ncore\n🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\nTypeScript\nMIT\n始于 Jun 2018\n53.1k\n9.1k\n32\n本周\n21\n关注\n·\n78\n提交\n·\n57\n已解决\nStarboard\n#339 powerlevel10k\n第 340 / 共 374\ntrackerslist #341\n\n目前追踪关注数超过 50k 的开源项目",
+  "shotPath": "/workspace/acceptance/round-4/screenshots/detail-core-1440.png",
+  "timings": {
+    "loadMs": 784,
+    "loadEventFired": true,
+    "waitMs": 5000,
+    "totalMs": 5789
+  },
+  "finishedAt": "2026-10-26T08:58:26.517Z"
+}

@@ -1,0 +1,60 @@
+{
+  "hamInfo": {
+    "found": true,
+    "display": "flex",
+    "visibility": "visible",
+    "x": 319,
+    "y": 0,
+    "w": 40,
+    "h": 56
+  },
+  "menu": {
+    "expanded": "true",
+    "links": [
+      {
+        "text": "Starboard",
+        "href": "/",
+        "visible": true
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "visible": true
+      },
+      {
+        "text": "使用说明",
+        "href": "/blog/how-to-use-github-star-history",
+        "visible": false
+      },
+      {
+        "text": "9,648",
+        "href": "https://github.com/star-history/star-history",
+        "visible": false
+      }
+    ],
+    "menuText": "Starboard\nBlog"
+  },
+  "clickResults": [
+    {
+      "link": "Starboard",
+      "href": "/",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "h1": "现在什么技术在起飞？"
+    },
+    {
+      "link": "Blog",
+      "href": "/blog",
+      "url": "https://star-history-3wn.pages.dev/blog",
+      "title": "Star History Blog",
+      "h1": "Star History Blog"
+    },
+    {
+      "link": "使用说明",
+      "href": "/blog/how-to-use-github-star-history",
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "h1": "现在什么技术在起飞？"
+    }
+  ]
+}

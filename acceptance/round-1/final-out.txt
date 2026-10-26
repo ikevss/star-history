@@ -1,0 +1,110 @@
+{
+  "brokenCards": [
+    {
+      "index": 11,
+      "href": "/Shubhamsaboo/awesome-llm-apps",
+      "after": {
+        "href": "https://star-history-3wn.pages.dev/Shubhamsaboo/awesome-llm-apps",
+        "title": "",
+        "text": "Go | 🔭 | Shubhamsaboo/awesome-llm-apps not found | We only track repositories with over 50k stars. Try another repository above."
+      },
+      "shot": "/workspace/acceptance/round-1/screenshots/broken-card-11.png"
+    },
+    {
+      "index": 14,
+      "href": "/LadybirdBrowser/ladybird",
+      "after": {
+        "href": "https://star-history-3wn.pages.dev/LadybirdBrowser/ladybird",
+        "title": "",
+        "text": "Go | 🔭 | LadybirdBrowser/ladybird not found | We only track repositories with over 50k stars. Try another repository above."
+      },
+      "shot": "/workspace/acceptance/round-1/screenshots/broken-card-14.png"
+    },
+    {
+      "index": 16,
+      "href": "/DigitalPlatDev/FreeDomain",
+      "after": {
+        "href": "https://star-history-3wn.pages.dev/DigitalPlatDev/FreeDomain",
+        "title": "",
+        "text": "Go | 🔭 | DigitalPlatDev/FreeDomain not found | We only track repositories with over 50k stars. Try another repository above."
+      },
+      "shot": "/workspace/acceptance/round-1/screenshots/broken-card-16.png"
+    }
+  ],
+  "mobileLookup": {
+    "innerW": 375,
+    "docScrollWidth": 375,
+    "overflowX": false,
+    "badCount": 3,
+    "bad": [
+      {
+        "tag": "DIV",
+        "cls": "w-auto sm:w-full grow max-w-3xl 2xl:max-w-4xl mt-4 flex flex",
+        "left": -18,
+        "right": 393
+      },
+      {
+        "tag": "INPUT",
+        "cls": "w-auto h-9 px-2 grow shrink text-dark outline-none rounded r",
+        "left": -17,
+        "right": 233
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "h-9 pl-4 pr-4 whitespace-nowrap w-auto text-black border-l b",
+        "left": 233,
+        "right": 392
+      }
+    ],
+    "rowWidth": 412,
+    "rowRight": 393,
+    "shot": "/workspace/acceptance/round-1/screenshots/09-mobile-lookup-overflow.png"
+  },
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/Shubhamsaboo/awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/LadybirdBrowser/ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/LadybirdBrowser/ladybird.json?slug=LadybirdBrowser&slug=ladybird",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/Shubhamsaboo/awesome-llm-apps.json?slug=Shubhamsaboo&slug=awesome-llm-apps",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/_next/data/zc8w__8phI7T132SyeMyp/DigitalPlatDev/FreeDomain.json?slug=DigitalPlatDev&slug=FreeDomain",
+    "Failed to load resource: the server responded with a status of 404 () @https://star-history-3wn.pages.dev/DigitalPlatDev/FreeDomain"
+  ],
+  "cardHrefs": [
+    "/openclaw/openclaw",
+    "/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "/obra/superpowers",
+    "/anthropics/skills",
+    "/affaan-m/everything-claude-code",
+    "/anomalyco/opencode",
+    "/anthropics/claude-code",
+    "/f/prompts.chat",
+    "/public-apis/public-apis",
+    "/codecrafters-io/build-your-own-x",
+    "/firecrawl/firecrawl",
+    "/Shubhamsaboo/awesome-llm-apps",
+    "/daytonaio/daytona",
+    "/sindresorhus/awesome",
+    "/LadybirdBrowser/ladybird",
+    "/github/spec-kit",
+    "/DigitalPlatDev/FreeDomain",
+    "/microsoft/markitdown",
+    "/clash-verge-rev/clash-verge-rev",
+    "/torvalds/linux",
+    "/blog/skills"
+  ],
+  "mobileFooterShot": "/workspace/acceptance/round-1/screenshots/10-mobile-footer.png"
+}

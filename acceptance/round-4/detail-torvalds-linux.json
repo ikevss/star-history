@@ -1,0 +1,38 @@
+{
+  "url": "https://star-history-3wn.pages.dev/torvalds/linux",
+  "width": 1440,
+  "height": 1200,
+  "mobile": false,
+  "startedAt": "2026-10-26T08:59:35.577Z",
+  "title": "torvalds/linux · 220.2k 关注",
+  "finalUrl": "https://star-history-3wn.pages.dev/torvalds/linux",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1200
+    },
+    "docScrollWidth": 1440,
+    "docClientWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 0,
+    "truncated": []
+  },
+  "evalResults": [],
+  "bodyText": "Go\n返回首页\n 分享\nGLOBAL RANK\n#15\nOct 26, 2026\nGLOBAL RANK\n#15\nOct 26, 2026\ntorvalds\n/\nlinux\nLinux kernel source tree\nC\nNOASSERTION\n始于 Sep 2011\n220.2k\n60.7k\n93\n本周\n94\n关注\n·\n58\n提交\n·\n0\n已解决\nStarboard\n#14 react\n第 15 / 共 374\nPython #16\n\n目前追踪关注数超过 50k 的开源项目",
+  "shotPath": "/workspace/acceptance/round-4/screenshots/detail-torvalds-linux-1440.png",
+  "timings": {
+    "loadMs": 911,
+    "loadEventFired": true,
+    "waitMs": 5000,
+    "totalMs": 5916
+  },
+  "finishedAt": "2026-10-26T08:59:41.650Z"
+}

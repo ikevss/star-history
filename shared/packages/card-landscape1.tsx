@@ -303,7 +303,7 @@ export function buildLandscape1(data: Landscape1Data) {
                 : null,
               data.license ? h("span", {}, data.license) : null,
               data.created_at
-                ? h("span", { style: { color: "#a3a3a3" } }, "since " + fmtDate(data.created_at))
+                ? h("span", { style: { color: "#a3a3a3" } }, "始于 " + fmtDate(data.created_at))
                 : null,
             ),
           ),
@@ -315,7 +315,7 @@ export function buildLandscape1(data: Landscape1Data) {
           { style: { display: "flex", alignItems: "center", gap: 24, marginTop: 60 } },
           h(
             "div",
-            { title: `Stars: ${data.stars.toLocaleString()}` + (data.attributes ? ` · Top ${100 - data.attributes.stars}%` : ""), style: { display: "flex", alignItems: "center", gap: 8 } },
+            { title: `关注：${data.stars.toLocaleString()}` + (data.attributes ? ` · 超过 ${100 - data.attributes.stars}%` : ""), style: { display: "flex", alignItems: "center", gap: 8 } },
             h(
               "svg",
               { viewBox: "0 0 24 24", width: 24, height: 24 },
@@ -328,7 +328,7 @@ export function buildLandscape1(data: Landscape1Data) {
           ),
           h(
             "div",
-            { title: `Forks: ${data.forks.toLocaleString()}` + (data.attributes ? ` · Top ${100 - data.attributes.forks}%` : ""), style: { display: "flex", alignItems: "center", gap: 8 } },
+            { title: `复刻：${data.forks.toLocaleString()}` + (data.attributes ? ` · 超过 ${100 - data.attributes.forks}%` : ""), style: { display: "flex", alignItems: "center", gap: 8 } },
             h(
               "svg",
               { viewBox: "0 0 32 24", width: 30, height: 24 },
@@ -352,7 +352,7 @@ export function buildLandscape1(data: Landscape1Data) {
           data.attributes
             ? h(
                 "div",
-                { title: `Contributors: ${data.attributes.contributors} · Top ${100 - data.attributes.contributors}%`, style: { display: "flex", alignItems: "center", gap: 8 } },
+                { title: `贡献者：${data.attributes.contributors} · 超过 ${100 - data.attributes.contributors}%`, style: { display: "flex", alignItems: "center", gap: 8 } },
                 h(
                   "svg",
                   { viewBox: "0 0 32 24", width: 30, height: 24 },
@@ -373,26 +373,26 @@ export function buildLandscape1(data: Landscape1Data) {
           ? h(
               "div",
               { style: { display: "flex", alignItems: "center", gap: 20, marginTop: 14, paddingTop: 14, borderTop: "1.5px solid #f0f0f0" } },
-              h("span", { style: { fontSize: 16, color: "#a3a3a3", textTransform: "uppercase", letterSpacing: "0.08em" } }, "Weekly"),
+              h("span", { style: { fontSize: 16, color: "#a3a3a3", letterSpacing: "0.08em" } }, "本周"),
               h(
                 "div",
-                { title: `New stars: ${data.attributes.new_stars} · Top ${100 - data.attributes.new_stars}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                { title: `新增关注：${data.attributes.new_stars} · 超过 ${100 - data.attributes.new_stars}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
                 h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.new_stars)),
-                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "stars"),
+                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "关注"),
               ),
               h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
               h(
                 "div",
-                { title: `Pushes: ${data.attributes.pushes} · Top ${100 - data.attributes.pushes}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                { title: `代码提交：${data.attributes.pushes} · 超过 ${100 - data.attributes.pushes}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
                 h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.pushes)),
-                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "pushes"),
+                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "提交"),
               ),
               h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
               h(
                 "div",
-                { title: `Issues closed: ${data.attributes.issues_closed} · Top ${100 - data.attributes.issues_closed}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                { title: `已解决问题：${data.attributes.issues_closed} · 超过 ${100 - data.attributes.issues_closed}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
                 h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.issues_closed)),
-                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "issues closed"),
+                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "已解决"),
               ),
             )
           : null,
@@ -416,7 +416,7 @@ export function buildLandscape1(data: Landscape1Data) {
       "div",
       { style: { position: "absolute", bottom: 20, right: 48, display: "flex", alignItems: "center", gap: 8 } },
       h("img", { src: data.logoBase64, width: 24, height: 24, style: { opacity: 0.6 } }),
-      h("span", { style: { fontSize: 19, color: "#b5b5b5", letterSpacing: "0.02em" } }, "star-history.com"),
+      h("span", { style: { fontSize: 19, color: "#b5b5b5", letterSpacing: "0.02em" } }, "Starboard"),
     ),
   );
 }

@@ -1,0 +1,742 @@
+[
+  {
+    "repo": "vuejs/core",
+    "w": 375,
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "detail-375-vuejs-core",
+    "nav": {
+      "frameId": "843F3E83CEE42C33E28E1844B64F1FBA",
+      "loaderId": "73B4665B5B81A7DADE0E7D21C205BE00",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 812,
+      "visibleGlobalRank": [
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        },
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 128,
+          "right": 160
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 160,
+          "h": 160,
+          "left": 182,
+          "right": 342
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 7,
+          "h": 7,
+          "left": 311,
+          "right": 318
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #340 | Oct 26, 2026 | GLOBAL RANK | #340 | Oct 26, 2026 | vuejs | / | core | 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. | TypeScript | MIT | 始于 Jun 2018 | 53.1k | 9.1k | 32 | 本周 | 21 | 关注 | · | 78 | 提交 | · | 57 | 已解决 | Starboard | #339 powerlevel10k | 第 340 / 共 374 | trackerslist #341 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "vuejs/core · 53.1k 关注",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 812,
+      "textLen": 344,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#340\nOct 26, 2026\nGLOBAL RANK\n#340\nOct 26, 2026\nvuejs\n/\ncore\n🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\nTypeScript\nMIT\n始于 Jun 2018\n53.1k\n9.1k\n32\n本周\n21\n关注\n·\n78\n提交\n·\n57\n已解决\nStarboard\n#339 powerlevel10k\n第 340 / 共 374\ntrackerslist #341\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-375-vuejs-core.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-375-vuejs-core-full.png"
+  },
+  {
+    "repo": "vuejs/core",
+    "w": 768,
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "detail-768-vuejs-core",
+    "nav": {
+      "frameId": "86BAE7CCBB6D6F7F34612B7DBBED56D7",
+      "loaderId": "78E37AF51E79AC46507B39E890095C09",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 1024,
+      "visibleGlobalRank": [
+        {
+          "x": 664,
+          "y": 230,
+          "w": 45,
+          "h": 15
+        },
+        {
+          "x": 663,
+          "y": 229,
+          "w": 45,
+          "h": 15
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 325,
+          "right": 357
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 343,
+          "h": 343,
+          "left": 373,
+          "right": 716
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 15,
+          "h": 15,
+          "left": 650,
+          "right": 664
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #340 | Oct 26, 2026 | GLOBAL RANK | #340 | Oct 26, 2026 | vuejs | / | core | 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. | TypeScript | MIT | 始于 Jun 2018 | 53.1k | 9.1k | 32 | 本周 | 21 | 关注 | · | 78 | 提交 | · | 57 | 已解决 | Starboard | #339 powerlevel10k | 第 340 / 共 374 | trackerslist #341 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "vuejs/core · 53.1k 关注",
+      "lang": "en",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "bodyScrollWidth": 768,
+      "bodyClientWidth": 768,
+      "hasHScroll": false,
+      "docHeight": 1024,
+      "textLen": 344,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#340\nOct 26, 2026\nGLOBAL RANK\n#340\nOct 26, 2026\nvuejs\n/\ncore\n🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\nTypeScript\nMIT\n始于 Jun 2018\n53.1k\n9.1k\n32\n本周\n21\n关注\n·\n78\n提交\n·\n57\n已解决\nStarboard\n#339 powerlevel10k\n第 340 / 共 374\ntrackerslist #341\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-768-vuejs-core.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-768-vuejs-core-full.png"
+  },
+  {
+    "repo": "openai/codex",
+    "w": 375,
+    "url": "https://star-history-3wn.pages.dev/openai/codex",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "detail-375-openai-codex",
+    "nav": {
+      "frameId": "265BF70CE6904B60CAFB2C3BF054A829",
+      "loaderId": "079C506E1B3F3921605BFEC808DB7DF9",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 812,
+      "visibleGlobalRank": [
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        },
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 128,
+          "right": 160
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 160,
+          "h": 160,
+          "left": 182,
+          "right": 342
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 7,
+          "h": 7,
+          "left": 311,
+          "right": 318
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #248 | Oct 26, 2026 | GLOBAL RANK | #248 | Oct 26, 2026 | openai | / | codex | Lightweight coding agent that runs in your terminal | Rust | Apache-2.0 | 始于 Apr 2025 | 62.6k | 8.3k | 96 | 本周 | 92 | 关注 | · | 98 | 提交 | · | 98 | 已解决 | Starboard | #247 alacritty | 第 248 / 共 374 | open-interpreter #249 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "openai/codex · 62.6k 关注",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 812,
+      "textLen": 298,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#248\nOct 26, 2026\nGLOBAL RANK\n#248\nOct 26, 2026\nopenai\n/\ncodex\nLightweight coding agent that runs in your terminal\nRust\nApache-2.0\n始于 Apr 2025\n62.6k\n8.3k\n96\n本周\n92\n关注\n·\n98\n提交\n·\n98\n已解决\nStarboard\n#247 alacritty\n第 248 / 共 374\nopen-interpreter #249\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-375-openai-codex.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-375-openai-codex-full.png"
+  },
+  {
+    "repo": "openai/codex",
+    "w": 768,
+    "url": "https://star-history-3wn.pages.dev/openai/codex",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "detail-768-openai-codex",
+    "nav": {
+      "frameId": "9B97A9CE5917995155E03123E4DA2D89",
+      "loaderId": "8C79DFE8D59CAFC654F2417EB934D41F",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 1024,
+      "visibleGlobalRank": [
+        {
+          "x": 664,
+          "y": 230,
+          "w": 45,
+          "h": 15
+        },
+        {
+          "x": 663,
+          "y": 229,
+          "w": 45,
+          "h": 15
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 325,
+          "right": 357
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 343,
+          "h": 343,
+          "left": 373,
+          "right": 716
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 15,
+          "h": 15,
+          "left": 650,
+          "right": 664
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #248 | Oct 26, 2026 | GLOBAL RANK | #248 | Oct 26, 2026 | openai | / | codex | Lightweight coding agent that runs in your terminal | Rust | Apache-2.0 | 始于 Apr 2025 | 62.6k | 8.3k | 96 | 本周 | 92 | 关注 | · | 98 | 提交 | · | 98 | 已解决 | Starboard | #247 alacritty | 第 248 / 共 374 | open-interpreter #249 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "openai/codex · 62.6k 关注",
+      "lang": "en",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "bodyScrollWidth": 768,
+      "bodyClientWidth": 768,
+      "hasHScroll": false,
+      "docHeight": 1024,
+      "textLen": 298,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#248\nOct 26, 2026\nGLOBAL RANK\n#248\nOct 26, 2026\nopenai\n/\ncodex\nLightweight coding agent that runs in your terminal\nRust\nApache-2.0\n始于 Apr 2025\n62.6k\n8.3k\n96\n本周\n92\n关注\n·\n98\n提交\n·\n98\n已解决\nStarboard\n#247 alacritty\n第 248 / 共 374\nopen-interpreter #249\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-768-openai-codex.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-768-openai-codex-full.png"
+  },
+  {
+    "repo": "torvalds/linux",
+    "w": 375,
+    "url": "https://star-history-3wn.pages.dev/torvalds/linux",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "detail-375-torvalds-linux",
+    "nav": {
+      "frameId": "3CA8F9EB57C9FA9D759023305B5D993E",
+      "loaderId": "ECF724A3EEF210529764417702911E0C",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 812,
+      "visibleGlobalRank": [
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        },
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 128,
+          "right": 160
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 160,
+          "h": 160,
+          "left": 182,
+          "right": 342
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 7,
+          "h": 7,
+          "left": 311,
+          "right": 318
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #15 | Oct 26, 2026 | GLOBAL RANK | #15 | Oct 26, 2026 | torvalds | / | linux | Linux kernel source tree | C | NOASSERTION | 始于 Sep 2011 | 220.2k | 60.7k | 93 | 本周 | 94 | 关注 | · | 58 | 提交 | · | 0 | 已解决 | Starboard | #14 react | 第 15 / 共 374 | Python #16 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "torvalds/linux · 220.2k 关注",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 812,
+      "textLen": 253,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#15\nOct 26, 2026\nGLOBAL RANK\n#15\nOct 26, 2026\ntorvalds\n/\nlinux\nLinux kernel source tree\nC\nNOASSERTION\n始于 Sep 2011\n220.2k\n60.7k\n93\n本周\n94\n关注\n·\n58\n提交\n·\n0\n已解决\nStarboard\n#14 react\n第 15 / 共 374\nPython #16\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-375-torvalds-linux.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-375-torvalds-linux-full.png"
+  },
+  {
+    "repo": "torvalds/linux",
+    "w": 768,
+    "url": "https://star-history-3wn.pages.dev/torvalds/linux",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "detail-768-torvalds-linux",
+    "nav": {
+      "frameId": "AADAC4AD367506DEAE6C35967D012C6F",
+      "loaderId": "03D2C8D58DC6944FF8EC1EC7AE74E1FA",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 1024,
+      "visibleGlobalRank": [
+        {
+          "x": 664,
+          "y": 230,
+          "w": 45,
+          "h": 15
+        },
+        {
+          "x": 663,
+          "y": 229,
+          "w": 45,
+          "h": 15
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 325,
+          "right": 357
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 343,
+          "h": 343,
+          "left": 373,
+          "right": 716
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 15,
+          "h": 15,
+          "left": 650,
+          "right": 664
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #15 | Oct 26, 2026 | GLOBAL RANK | #15 | Oct 26, 2026 | torvalds | / | linux | Linux kernel source tree | C | NOASSERTION | 始于 Sep 2011 | 220.2k | 60.7k | 93 | 本周 | 94 | 关注 | · | 58 | 提交 | · | 0 | 已解决 | Starboard | #14 react | 第 15 / 共 374 | Python #16 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "torvalds/linux · 220.2k 关注",
+      "lang": "en",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "bodyScrollWidth": 768,
+      "bodyClientWidth": 768,
+      "hasHScroll": false,
+      "docHeight": 1024,
+      "textLen": 253,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#15\nOct 26, 2026\nGLOBAL RANK\n#15\nOct 26, 2026\ntorvalds\n/\nlinux\nLinux kernel source tree\nC\nNOASSERTION\n始于 Sep 2011\n220.2k\n60.7k\n93\n本周\n94\n关注\n·\n58\n提交\n·\n0\n已解决\nStarboard\n#14 react\n第 15 / 共 374\nPython #16\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-768-torvalds-linux.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-768-torvalds-linux-full.png"
+  },
+  {
+    "repo": "anthropics/claude-code",
+    "w": 375,
+    "url": "https://star-history-3wn.pages.dev/anthropics/claude-code",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "detail-375-anthropics-claude-code",
+    "nav": {
+      "frameId": "0BDC52160784F7E8EE2F3E9625E68275",
+      "loaderId": "B562D62CF0C92BD461F22706984D5519",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 812,
+      "visibleGlobalRank": [
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        },
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 128,
+          "right": 160
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 160,
+          "h": 160,
+          "left": 182,
+          "right": 342
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 7,
+          "h": 7,
+          "left": 311,
+          "right": 318
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #186 | Oct 26, 2026 | GLOBAL RANK | #186 | Oct 26, 2026 | anthropics | / | claude-code | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast... | Shell | 始于 Feb 2025 | 72.6k | 5.8k | 98 | 本周 | 97 | 关注 | · | 69 | 提交 | · | 99 | 已解决 | Starboard | #185 stable-diffusion | 第 186 / 共 374 | grafana #187 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "anthropics/claude-code · 72.6k 关注",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 812,
+      "textLen": 365,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#186\nOct 26, 2026\nGLOBAL RANK\n#186\nOct 26, 2026\nanthropics\n/\nclaude-code\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...\nShell\n始于 Feb 2025\n72.6k\n5.8k\n98\n本周\n97\n关注\n·\n69\n提交\n·\n99\n已解决\nStarboard\n#185 stable-diffusion\n第 186 / 共 374\ngrafana #187\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-375-anthropics-claude-code.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-375-anthropics-claude-code-full.png"
+  },
+  {
+    "repo": "anthropics/claude-code",
+    "w": 768,
+    "url": "https://star-history-3wn.pages.dev/anthropics/claude-code",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "detail-768-anthropics-claude-code",
+    "nav": {
+      "frameId": "3E9725E1A4AC9E2755FC586DFFB978E5",
+      "loaderId": "F6CE8898709297FAD90BBC598F23124C",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 1024,
+      "visibleGlobalRank": [
+        {
+          "x": 664,
+          "y": 230,
+          "w": 45,
+          "h": 15
+        },
+        {
+          "x": 663,
+          "y": 229,
+          "w": 45,
+          "h": 15
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 325,
+          "right": 357
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 343,
+          "h": 343,
+          "left": 373,
+          "right": 716
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 15,
+          "h": 15,
+          "left": 650,
+          "right": 664
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #186 | Oct 26, 2026 | GLOBAL RANK | #186 | Oct 26, 2026 | anthropics | / | claude-code | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast... | Shell | 始于 Feb 2025 | 72.6k | 5.8k | 98 | 本周 | 97 | 关注 | · | 69 | 提交 | · | 99 | 已解决 | Starboard | #185 stable-diffusion | 第 186 / 共 374 | grafana #187 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "anthropics/claude-code · 72.6k 关注",
+      "lang": "en",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "bodyScrollWidth": 768,
+      "bodyClientWidth": 768,
+      "hasHScroll": false,
+      "docHeight": 1024,
+      "textLen": 365,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#186\nOct 26, 2026\nGLOBAL RANK\n#186\nOct 26, 2026\nanthropics\n/\nclaude-code\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...\nShell\n始于 Feb 2025\n72.6k\n5.8k\n98\n本周\n97\n关注\n·\n69\n提交\n·\n99\n已解决\nStarboard\n#185 stable-diffusion\n第 186 / 共 374\ngrafana #187\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-768-anthropics-claude-code.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-768-anthropics-claude-code-full.png"
+  },
+  {
+    "repo": "sindresorhus/awesome",
+    "w": 375,
+    "url": "https://star-history-3wn.pages.dev/sindresorhus/awesome",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "detail-375-sindresorhus-awesome",
+    "nav": {
+      "frameId": "DA663D2B605257AF4B9B2D48EE6E74B3",
+      "loaderId": "7E0BD7D4484DC2A49822E99113D5088B",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 812,
+      "visibleGlobalRank": [
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        },
+        {
+          "x": 318,
+          "y": 198,
+          "w": 21,
+          "h": 7
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 128,
+          "right": 160
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 160,
+          "h": 160,
+          "left": 182,
+          "right": 342
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 7,
+          "h": 7,
+          "left": 311,
+          "right": 318
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #2 | Oct 26, 2026 | GLOBAL RANK | #2 | Oct 26, 2026 | sindresorhus | / | awesome | 😎 Awesome lists about all kinds of interesting topics | CC0-1.0 | 始于 Jul 2014 | 441.8k | 33.4k | 95 | 本周 | 95 | 关注 | · | 43 | 提交 | · | 0 | 已解决 | Starboard | #1 build-your-own-x | 第 2 / 共 374 | freeCodeCamp #3 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "sindresorhus/awesome · 441.8k 关注",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 812,
+      "textLen": 295,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#2\nOct 26, 2026\nGLOBAL RANK\n#2\nOct 26, 2026\nsindresorhus\n/\nawesome\n😎 Awesome lists about all kinds of interesting topics\nCC0-1.0\n始于 Jul 2014\n441.8k\n33.4k\n95\n本周\n95\n关注\n·\n43\n提交\n·\n0\n已解决\nStarboard\n#1 build-your-own-x\n第 2 / 共 374\nfreeCodeCamp #3\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-375-sindresorhus-awesome.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-375-sindresorhus-awesome-full.png"
+  },
+  {
+    "repo": "sindresorhus/awesome",
+    "w": 768,
+    "url": "https://star-history-3wn.pages.dev/sindresorhus/awesome",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "detail-768-sindresorhus-awesome",
+    "nav": {
+      "frameId": "922EE477DC9D0DDA099F304DCA9AE729",
+      "loaderId": "5585C67BC768CEE3CEF2C2BAA95874E3",
+      "isDownload": false
+    },
+    "actionResults": {
+      "docHeight": 1024,
+      "visibleGlobalRank": [
+        {
+          "x": 664,
+          "y": 230,
+          "w": 45,
+          "h": 15
+        },
+        {
+          "x": 663,
+          "y": 229,
+          "w": 45,
+          "h": 15
+        }
+      ],
+      "images": [
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 32,
+          "h": 32,
+          "left": 325,
+          "right": 357
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz",
+          "w": 343,
+          "h": 343,
+          "left": 373,
+          "right": 716
+        },
+        {
+          "src": "https://star-history-3wn.pages.dev/asset",
+          "w": 15,
+          "h": 15,
+          "left": 650,
+          "right": 664
+        }
+      ],
+      "cardRect": null,
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #2 | Oct 26, 2026 | GLOBAL RANK | #2 | Oct 26, 2026 | sindresorhus | / | awesome | 😎 Awesome lists about all kinds of interesting topics | CC0-1.0 | 始于 Jul 2014 | 441.8k | 33.4k | 95 | 本周 | 95 | 关注 | · | 43 | 提交 | · | 0 | 已解决 | Starboard | #1 build-your-own-x | 第 2 / 共 374 | freeCodeCamp #3 |  | 目前追踪关注数超过 50k 的开源项目",
+      "overflowEls": []
+    },
+    "metrics": {
+      "title": "sindresorhus/awesome · 441.8k 关注",
+      "lang": "en",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "bodyScrollWidth": 768,
+      "bodyClientWidth": 768,
+      "hasHScroll": false,
+      "docHeight": 1024,
+      "textLen": 295,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nGo\n返回首页\n 分享\nGLOBAL RANK\n#2\nOct 26, 2026\nGLOBAL RANK\n#2\nOct 26, 2026\nsindresorhus\n/\nawesome\n😎 Awesome lists about all kinds of interesting topics\nCC0-1.0\n始于 Jul 2014\n441.8k\n33.4k\n95\n本周\n95\n关注\n·\n43\n提交\n·\n0\n已解决\nStarboard\n#1 build-your-own-x\n第 2 / 共 374\nfreeCodeCamp #3\n\n目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/detail-768-sindresorhus-awesome.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/detail-768-sindresorhus-awesome-full.png"
+  }
+]

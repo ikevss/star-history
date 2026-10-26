@@ -1,0 +1,36 @@
+{
+  "wallMs": 4235,
+  "domContentLoaded": 695.5999999996275,
+  "loadEvent": 1259.3999999994412,
+  "responseEnd": 235.29999999981374,
+  "totalCards": 22,
+  "uniqueCardHrefs": 21,
+  "visibleCardsWithoutScroll": 13,
+  "h1": "现在什么技术在起飞？",
+  "sub": [
+    "当前展示的是最近一次完整统计周期，最新一周仍在采集。",
+    "不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。",
+    "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+    "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "An agentic skills framework & software development methodology that works.",
+    "Public repository for Agent Skills"
+  ],
+  "filterChips": [
+    "全部 20",
+    "AI 13",
+    "前端 1",
+    "后端 3",
+    "学习资源 3",
+    "查看"
+  ],
+  "headerText": "Starboard\nBlog\n使用说明\n9,648",
+  "foundTerms": [
+    "repo",
+    "注册",
+    "API"
+  ],
+  "footerText": "Starboard · 现在什么技术在起飞\npgconsole\npgschema\nDBHub\nMaintained by Bytebase, originally built by @tim_qian",
+  "title": "Starboard · 现在什么技术在起飞",
+  "consoleErrors": [],
+  "badResponses": []
+}

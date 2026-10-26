@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "i": 16,
+      "href": "/github/spec-kit",
+      "cardText": "16 | github/ | spec-kit | 💫 Toolkit to help you get started with Spec-Driven Development ",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/github/spec-kit",
+        "title": "github/spec-kit - 73.2k Stars",
+        "h1": null,
+        "bodyLen": 382,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#180\nOct 26, 2026\nGLOBAL RANK\n#180\nOct 26, 2026\ngithub\n/\nspec-kit\n💫 Toolkit to help you get started with Spec-Driven Development\nPython\nMIT\nsince Aug 2025\n73.2k\n6.3k\n94\nWEEKLY\n95\nstars\n·\n58\npushes\n·\n0\nissues closed\nstar-history.com\n#179 redis\n#180 of 374\nawesome-p",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 17,
+      "href": "/digitalplatdev/freedomain",
+      "cardText": "17 | DigitalPlatDev/ | FreeDomain | DigitalPlat FreeDomain: Free Domain For Everyone | +49",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/digitalplatdev/freedomain",
+        "title": "DigitalPlatDev/FreeDomain - 150.2k Stars",
+        "h1": null,
+        "bodyLen": 379,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#39\nOct 26, 2026\nGLOBAL RANK\n#39\nOct 26, 2026\nDigitalPlatDev\n/\nFreeDomain\nDigitalPlat FreeDomain: Free Domain For Everyone\nHTML\nAGPL-3.0\nsince May 2024\n150.2k\n2.6k\n92\nWEEKLY\n95\nstars\n·\n0\npushes\n·\n0\nissues closed\nstar-history.com\n#38 JavaGuide\n#39 of 374\nprompts.cha",
+        "hasRepo": false
+      },
+      "netBad": []
+    },
+    {
+      "i": 18,
+      "href": "/microsoft/markitdown",
+      "cardText": "18 | microsoft/ | markitdown | Python tool for converting files and office documents to Ma",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/microsoft/markitdown",
+        "title": "microsoft/markitdown - 89.3k Stars",
+        "h1": null,
+        "bodyLen": 382,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#115\nOct 26, 2026\nGLOBAL RANK\n#115\nOct 26, 2026\nmicrosoft\n/\nmarkitdown\nPython tool for converting files and office documents to Markdown.\nPython\nMIT\nsince Nov 2024\n89.3k\n5.2k\n93\nWEEKLY\n94\nstars\n·\n0\npushes\n·\n0\nissues closed\nstar-history.com\n#114 storybook\n#115 of 37",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 19,
+      "href": "/clash-verge-rev/clash-verge-rev",
+      "cardText": "19 | clash-verge-rev/ | clash-verge-rev | A modern GUI client based on Tauri, designed to ",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/clash-verge-rev/clash-verge-rev",
+        "title": "clash-verge-rev/clash-verge-rev - 99.8k Stars",
+        "h1": null,
+        "bodyLen": 454,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#88\nOct 26, 2026\nGLOBAL RANK\n#88\nOct 26, 2026\nclash-verge-rev\n/\nclash-verge-rev\nA modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience\nTypeScript\nGPL-3.0\nsince Nov 2023\n99.8k\n7.3k\n93\nWEEKLY\n94\nstars\n·\n58\npushes",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 20,
+      "href": "/torvalds/linux",
+      "cardText": "20 | torvalds/ | linux | Linux kernel source tree | +453 | 关注 · 本周 | 共 22万 | 后端",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/torvalds/linux",
+        "title": "torvalds/linux - 220.2k Stars",
+        "h1": null,
+        "bodyLen": 325,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#15\nOct 26, 2026\nGLOBAL RANK\n#15\nOct 26, 2026\ntorvalds\n/\nlinux\nLinux kernel source tree\nC\nNOASSERTION\nsince Sep 2011\n220.2k\n60.7k\n93\nWEEKLY\n94\nstars\n·\n58\npushes\n·\n0\nissues closed\nstar-history.com\n#14 react\n#15 of 374\nPython #16\n\nTracking repos with 50k+ stars\n\ntorv",
+        "hasRepo": true
+      },
+      "netBad": []
+    }
+  ],
+  "consoleErrors": [],
+  "netBad": []
+}

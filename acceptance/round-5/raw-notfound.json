@@ -1,0 +1,94 @@
+[
+  {
+    "url": "https://star-history-3wn.pages.dev/notexist/notexist",
+    "name": "notfound-notexist",
+    "status": [
+      404
+    ],
+    "data": {
+      "title": "页面不存在 · Starboard",
+      "text": "Go |  | 🔭 |  | 这个页面走丢了 |  | 我们目前只收录关注数超过 50k 的开源项目，你想看的项目可能还没进榜。 |  | 返回首页看看什么在起飞",
+      "h1": "这个页面走丢了"
+    },
+    "errors": [
+      {
+        "type": "http",
+        "url": "https://star-history-3wn.pages.dev/notexist/notexist",
+        "status": 404,
+        "mime": "text/html"
+      },
+      {
+        "type": "log",
+        "text": "Failed to load resource: the server responded with a status of 404 ()",
+        "url": "https://star-history-3wn.pages.dev/notexist/notexist",
+        "source": "network"
+      }
+    ],
+    "hscroll": false
+  },
+  {
+    "url": "https://star-history-3wn.pages.dev/facebook/react",
+    "name": "notfound-facebook-react",
+    "status": [],
+    "data": {
+      "title": "facebook/react · 243.4k 关注",
+      "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #14 | Oct 26, 2026 | GLOBAL RANK | #14 | Oct 26, 2026 | facebook | / | react | The library for web and native user interfaces. | JavaScript | MIT | 始于 May 2013 | 243.4k | 50.6k | 69 | 本周 | 68 | 关注 | · | 89 | 提交 | · | 0 | 已解决 | Starboard | #13 openclaw | 第 14 / 共 374 | linux #15 |  | 目前追踪关注数超过 50k 的开源项目"
+    },
+    "errors": [],
+    "hscroll": false
+  },
+  {
+    "url": "https://star-history-3wn.pages.dev/star-history/star-history",
+    "name": "notfound-starhistory",
+    "status": [
+      404
+    ],
+    "data": {
+      "title": "页面不存在 · Starboard",
+      "text": "Go |  | 🔭 |  | 这个页面走丢了 |  | 我们目前只收录关注数超过 50k 的开源项目，你想看的项目可能还没进榜。 |  | 返回首页看看什么在起飞",
+      "h1": "这个页面走丢了"
+    },
+    "errors": [
+      {
+        "type": "http",
+        "url": "https://star-history-3wn.pages.dev/star-history/star-history",
+        "status": 404,
+        "mime": "text/html"
+      },
+      {
+        "type": "log",
+        "text": "Failed to load resource: the server responded with a status of 404 ()",
+        "url": "https://star-history-3wn.pages.dev/star-history/star-history",
+        "source": "network"
+      }
+    ],
+    "hscroll": false
+  },
+  {
+    "url": "https://star-history-3wn.pages.dev/this-is-a-bad-url",
+    "name": "notfound-badslug",
+    "status": [
+      404
+    ],
+    "data": {
+      "title": "页面不存在 · Starboard",
+      "text": "Go |  | 🔭 |  | 这个页面走丢了 |  | 我们目前只收录关注数超过 50k 的开源项目，你想看的项目可能还没进榜。 |  | 返回首页看看什么在起飞",
+      "h1": "这个页面走丢了"
+    },
+    "errors": [
+      {
+        "type": "http",
+        "url": "https://star-history-3wn.pages.dev/this-is-a-bad-url",
+        "status": 404,
+        "mime": "text/html"
+      },
+      {
+        "type": "log",
+        "text": "Failed to load resource: the server responded with a status of 404 ()",
+        "url": "https://star-history-3wn.pages.dev/this-is-a-bad-url",
+        "source": "network"
+      }
+    ],
+    "hscroll": false
+  }
+]

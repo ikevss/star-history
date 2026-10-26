@@ -1,0 +1,51 @@
+{
+  "url": "https://star-history-3wn.pages.dev/",
+  "width": 1440,
+  "height": 900,
+  "mobile": false,
+  "startedAt": "2026-10-26T09:03:39.232Z",
+  "title": "Starboard · 现在什么技术在起飞",
+  "finalUrl": "https://star-history-3wn.pages.dev/",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 900
+    },
+    "docScrollWidth": 1425,
+    "docClientWidth": 1425,
+    "bodyScrollWidth": 1425,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 1,
+    "truncated": [
+      {
+        "tag": "SPAN",
+        "cls": "truncate text-[15px] font-semibold text-neutral-900",
+        "text": "system-prompts-and-models-of-ai-tools",
+        "scrollWidth": 298,
+        "clientWidth": 236
+      }
+    ]
+  },
+  "evalResults": [
+    {
+      "expr": "JSON.stringify(Array.from(document.querySelectorAll(\"*\")).filter(e=>e.children.length===0&&/推广|赞助|Promote/.test(e.textContent||\"\")).map(e=>({tag:e.tagName,txt:e.textContent.trim().slice(0,60),parentTx",
+      "value": "[{\"tag\":\"SPAN\",\"txt\":\"推广\",\"parentTxt\":\"推广 Scrape search engine results easily using a simple API, including Google, Google Maps, Amazon, and more! Dify: Open-source platform for building LLM apps, fr\"}]"
+    }
+  ],
+  "bodyText": null,
+  "shotPath": null,
+  "timings": {
+    "loadMs": 1306,
+    "loadEventFired": true,
+    "waitMs": 4000,
+    "totalMs": 5307
+  },
+  "finishedAt": "2026-10-26T09:03:44.609Z"
+}

@@ -85,7 +85,7 @@ const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M10.5 13L5.5 8L10.5 3" />
                 </svg>
-                Back to home
+                返回首页
             </Link>
         </div>
         <div className="flex items-center gap-3">
@@ -98,7 +98,7 @@ const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void
                 onClick={onDownload}
                 disabled={downloading}
                 className="text-neutral-400 hover:text-neutral-600 transition-colors disabled:opacity-40"
-                title="Download as PNG"
+                title="下载图片"
             >
                 <svg width="24" height="24" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M11,2.5 C11.3,5 10.8,8 11.2,11.5" />
@@ -113,7 +113,7 @@ const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void
                 rel="noopener noreferrer"
                 className="btn-secondary"
             >
-                <i className="fab fa-x-twitter"></i> Share
+                <i className="fab fa-x-twitter"></i> 分享
             </a>
         </div>
     </div>
@@ -127,16 +127,16 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
     const [radarPos, setRadarPos] = useState<{ left: number; top: number; width: number; height: number } | null>(null)
     const [statTooltip, setStatTooltip] = useState<{ left: number; top: number; line1: string; line2: string } | null>(null)
 
-    const title = `${repo.name} - ${formatNumber(repo.stars_total)} Stars`
+    const title = `${repo.name} · ${formatNumber(repo.stars_total)} 关注`
     const weeklyParts = [
-        repo.attributes?.new_stars ? `+${formatNumber(repo.attributes.new_stars)} stars` : "",
-        repo.attributes?.pushes ? `${formatNumber(repo.attributes.pushes)} pushes` : "",
-        repo.attributes?.contributors ? `${formatNumber(repo.attributes.contributors)} contributors` : "",
+        repo.attributes?.new_stars ? `本周新增 ${formatNumber(repo.attributes.new_stars)} 关注` : "",
+        repo.attributes?.pushes ? `${formatNumber(repo.attributes.pushes)} 次代码提交` : "",
+        repo.attributes?.contributors ? `${formatNumber(repo.attributes.contributors)} 位贡献者` : "",
     ].filter(Boolean)
-    const description = weeklyParts.length ? `This week: ${weeklyParts.join(", ")}` : `Star history and stats for ${repo.name}`
+    const description = weeklyParts.length ? weeklyParts.join("，") : `${repo.name} 的增长数据与项目画像`
     const canonicalUrl = `${SITE_URL}/${repo.name.toLowerCase()}`
     const ogImage = `${API_URL}/svg?repos=${repo.name}&style=landscape1`
-    const tweetText = `${repo.name} - ${formatNumber(repo.stars_total)} stars on GitHub`
+    const tweetText = `${repo.name} 在 GitHub 上有 ${formatNumber(repo.stars_total)} 关注`
     const tweetUrl = `https://x.com/intent/tweet?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(tweetText)}`
 
     const hasAttributes = repo.attributes && Object.values(repo.attributes).some(v => v > 0)
@@ -145,8 +145,11 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
     const radarSvgBase64 = useMemo(() => {
         if (!hasAttributes) return null
         const svg = renderRadarSvg(repo.attributes, 400)
-        return `data:image/svg+xml;base64,${btoa(svg)}`
-    }, [repo.attributes])
+        const bytes = new TextEncoder().encode(svg)
+        let binary = ""
+        for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i])
+        return `data:image/svg+xml;base64,${btoa(binary)}`
+    }, [repo.attributes, hasAttributes])
 
     // Build the shared VDOM layout — same code path as the /svg?style=landscape1 endpoint
     const cardVNode = useMemo(() => buildLandscape1({
@@ -302,7 +305,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
             link.click()
         } catch (err) {
             console.error("Failed to export card as PNG:", err)
-            toast.error("Failed to download PNG. Please try again.")
+            toast.error("图片下载失败，请稍后重试。")
         } finally {
             setDownloading(false)
         }
@@ -314,7 +317,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
                 <title>{title}</title>
                 <meta name="description" content={description} />
                 <link rel="canonical" href={canonicalUrl} />
-                <meta property="og:locale" content="en_US" />
+                <meta property="og:locale" content="zh_CN" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={canonicalUrl} />
                 <meta property="og:title" content={title} />
@@ -322,7 +325,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
                 <meta property="og:image" content={ogImage} />
                 <meta property="og:image:width" content="1200" />
                 <meta property="og:image:height" content="630" />
-                <meta property="og:site_name" content="Star History" />
+                <meta property="og:site_name" content="Starboard" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:url" content={canonicalUrl} />
                 <meta name="twitter:title" content={title} />
@@ -356,8 +359,9 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
                 />
             </Head>
             <PageShell header={
-                <Link href="/">
-                    <img src="/assets/logo-full.svg" alt="Star History" className="h-8 mb-4" />
+                <Link href="/" className="mb-4 inline-flex items-center gap-2">
+                    <img src="/assets/logo-icon.png" alt="Starboard" className="h-8 w-auto" />
+                    <span className="text-lg font-semibold text-neutral-800" style={{ fontFamily: "xkcd, cursive" }}>Starboard</span>
                 </Link>
             }>
                 <Toolbar onDownload={handleDownload} downloading={downloading} tweetUrl={tweetUrl} />
@@ -451,7 +455,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
                         )}
                     </div>
                     <div className="w-1/3 text-center">
-                        #{repo.rank} of {formatNumber(repo.total_repos)}
+                        第 {repo.rank} / 共 {formatNumber(repo.total_repos)}
                     </div>
                     <div className="w-1/3 text-right">
                         {nextRepo && (
@@ -465,9 +469,9 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
                     </div>
                 </div>
 
-                <p className="text-sm text-neutral-400 mt-1">
-                    Tracking repos with {formatNumber(minStars)}+ stars
-                </p>
+                    <p className="text-sm text-neutral-400 mt-1">
+                        目前追踪关注数超过 {formatNumber(minStars)} 的开源项目
+                    </p>
             </PageShell>
         </>
     )

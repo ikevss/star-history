@@ -1,0 +1,38 @@
+{
+  "url": "https://star-history-3wn.pages.dev/vuejs/core",
+  "width": 375,
+  "height": 812,
+  "mobile": true,
+  "startedAt": "2026-10-26T08:58:22.049Z",
+  "title": "vuejs/core · 53.1k 关注",
+  "finalUrl": "https://star-history-3wn.pages.dev/vuejs/core",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 375,
+      "innerHeight": 812
+    },
+    "docScrollWidth": 375,
+    "docClientWidth": 375,
+    "bodyScrollWidth": 375,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 0,
+    "truncated": []
+  },
+  "evalResults": [],
+  "bodyText": null,
+  "shotPath": "/workspace/acceptance/round-4/screenshots/detail-core-375.png",
+  "timings": {
+    "loadMs": 970,
+    "loadEventFired": true,
+    "waitMs": 5000,
+    "totalMs": 5975
+  },
+  "finishedAt": "2026-10-26T08:58:28.205Z"
+}

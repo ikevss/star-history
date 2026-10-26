@@ -1,0 +1,38 @@
+{
+  "url": "https://star-history-3wn.pages.dev/anthropics/claude-code",
+  "width": 1440,
+  "height": 1200,
+  "mobile": false,
+  "startedAt": "2026-10-26T08:59:56.278Z",
+  "title": "anthropics/claude-code · 72.6k 关注",
+  "finalUrl": "https://star-history-3wn.pages.dev/anthropics/claude-code",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1200
+    },
+    "docScrollWidth": 1440,
+    "docClientWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 0,
+    "truncated": []
+  },
+  "evalResults": [],
+  "bodyText": "Go\n返回首页\n 分享\nGLOBAL RANK\n#186\nOct 26, 2026\nGLOBAL RANK\n#186\nOct 26, 2026\nanthropics\n/\nclaude-code\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...\nShell\n始于 Feb 2025\n72.6k\n5.8k\n98\n本周\n97\n关注\n·\n69\n提交\n·\n99\n已解决\nStarboard\n#185 stable-diffusion\n第 186 / 共 374\ngrafana #187\n\n目前追踪关注数超过 50k 的开源项目",
+  "shotPath": "/workspace/acceptance/round-4/screenshots/detail-anthropics-claude-code-1440.png",
+  "timings": {
+    "loadMs": 1033,
+    "loadEventFired": true,
+    "waitMs": 5000,
+    "totalMs": 6038
+  },
+  "finishedAt": "2026-10-26T09:00:02.461Z"
+}

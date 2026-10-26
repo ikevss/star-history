@@ -1,0 +1,443 @@
+{
+  "w375": {
+    "loadMs": 3287,
+    "layout": {
+      "innerW": 375,
+      "innerH": 812,
+      "scrollW": 375,
+      "scrollH": 4045,
+      "overflowX": false,
+      "outOfView": [],
+      "truncated": [
+        {
+          "tag": "SPAN",
+          "sw": 298,
+          "cw": 217,
+          "text": "system-prompts-and-models"
+        }
+      ],
+      "h1": "现在什么技术在起飞？",
+      "firstScreenText": "Starboard\nBlog\n连接 GitHub\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\nAI\n2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin"
+    },
+    "cards": [
+      {
+        "href": "/blog/how-to-use-github-star-history",
+        "text": " How to use this site"
+      },
+      {
+        "href": "/openclaw/openclaw",
+        "text": "1 | openclaw/ | openclaw | Your own personal AI assistant. Any OS. Any Platform. The lobst"
+      },
+      {
+        "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "text": "2 | x1xhlol/ | system-prompts-and-models-of-ai-tools | FULL Augment Code, Claude Code, Clu"
+      },
+      {
+        "href": "/obra/superpowers",
+        "text": "3 | obra/ | superpowers | An agentic skills framework & software development methodology t"
+      },
+      {
+        "href": "/anthropics/skills",
+        "text": "4 | anthropics/ | skills | Public repository for Agent Skills | +1,970 | 关注 · 本周 | 共 8.1万 "
+      },
+      {
+        "href": "/affaan-m/everything-claude-code",
+        "text": "5 | affaan-m/ | everything-claude-code | The agent harness performance optimization system"
+      },
+      {
+        "href": "/anomalyco/opencode",
+        "text": "6 | anomalyco/ | opencode | The open source coding agent. | +1,397 | 关注 · 本周 | 共 11.4万 | A"
+      },
+      {
+        "href": "/anthropics/claude-code",
+        "text": "7 | anthropics/ | claude-code | Claude Code is an agentic coding tool that lives in your t"
+      },
+      {
+        "href": "/f/prompts.chat",
+        "text": "8 | f/ | prompts.chat | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect promp"
+      },
+      {
+        "href": "/public-apis/public-apis",
+        "text": "9 | public-apis/ | public-apis | A collective list of free APIs | +736 | 关注 · 本周 | 共 40.3万"
+      },
+      {
+        "href": "/codecrafters-io/build-your-own-x",
+        "text": "10 | codecrafters-io/ | build-your-own-x | Master programming by recreating your favorite "
+      },
+      {
+        "href": "/firecrawl/firecrawl",
+        "text": "11 | firecrawl/ | firecrawl | 🔥 The Web Data API for AI - Turn entire websites into LLM-r"
+      },
+      {
+        "href": "/shubhamsaboo/awesome-llm-apps",
+        "text": "12 | Shubhamsaboo/ | awesome-llm-apps | Collection of awesome LLM apps with AI Agents and "
+      },
+      {
+        "href": "/daytonaio/daytona",
+        "text": "13 | daytonaio/ | daytona | Daytona is a Secure and Elastic Infrastructure for Running AI-"
+      },
+      {
+        "href": "/sindresorhus/awesome",
+        "text": "14 | sindresorhus/ | awesome | 😎 Awesome lists about all kinds of interesting topics | +5"
+      },
+      {
+        "href": "/ladybirdbrowser/ladybird",
+        "text": "15 | LadybirdBrowser/ | ladybird | Truly independent web browser | +523 | 关注 · 本周 | 共 6.1万"
+      },
+      {
+        "href": "/github/spec-kit",
+        "text": "16 | github/ | spec-kit | 💫 Toolkit to help you get started with Spec-Driven Development "
+      },
+      {
+        "href": "/digitalplatdev/freedomain",
+        "text": "17 | DigitalPlatDev/ | FreeDomain | DigitalPlat FreeDomain: Free Domain For Everyone | +49"
+      },
+      {
+        "href": "/microsoft/markitdown",
+        "text": "18 | microsoft/ | markitdown | Python tool for converting files and office documents to Ma"
+      },
+      {
+        "href": "/clash-verge-rev/clash-verge-rev",
+        "text": "19 | clash-verge-rev/ | clash-verge-rev | A modern GUI client based on Tauri, designed to "
+      },
+      {
+        "href": "/torvalds/linux",
+        "text": "20 | torvalds/ | linux | Linux kernel source tree | +453 | 关注 · 本周 | 共 22万 | 后端"
+      }
+    ]
+  },
+  "w768": {
+    "loadMs": 3298,
+    "layout": {
+      "innerW": 768,
+      "innerH": 1024,
+      "scrollW": 768,
+      "scrollH": 2403,
+      "overflowX": false,
+      "outOfView": [],
+      "truncated": [
+        {
+          "tag": "SPAN",
+          "sw": 298,
+          "cw": 234,
+          "text": "system-prompts-and-models"
+        }
+      ],
+      "h1": "现在什么技术在起飞？",
+      "firstScreenText": "Starboard\nBlog\n连接 GitHub\nHow to use this site\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\nAI\n2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augment Code, Claude Code, Cluely, Code"
+    },
+    "cards": [
+      {
+        "href": "/blog/how-to-use-github-star-history",
+        "text": "How to use this site"
+      },
+      {
+        "href": "/openclaw/openclaw",
+        "text": "1 | openclaw/ | openclaw | Your own personal AI assistant. Any OS. Any Platform. The lobst"
+      },
+      {
+        "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "text": "2 | x1xhlol/ | system-prompts-and-models-of-ai-tools | FULL Augment Code, Claude Code, Clu"
+      },
+      {
+        "href": "/obra/superpowers",
+        "text": "3 | obra/ | superpowers | An agentic skills framework & software development methodology t"
+      },
+      {
+        "href": "/anthropics/skills",
+        "text": "4 | anthropics/ | skills | Public repository for Agent Skills | +1,970 | 关注 · 本周 | 共 8.1万 "
+      },
+      {
+        "href": "/affaan-m/everything-claude-code",
+        "text": "5 | affaan-m/ | everything-claude-code | The agent harness performance optimization system"
+      },
+      {
+        "href": "/anomalyco/opencode",
+        "text": "6 | anomalyco/ | opencode | The open source coding agent. | +1,397 | 关注 · 本周 | 共 11.4万 | A"
+      },
+      {
+        "href": "/anthropics/claude-code",
+        "text": "7 | anthropics/ | claude-code | Claude Code is an agentic coding tool that lives in your t"
+      },
+      {
+        "href": "/f/prompts.chat",
+        "text": "8 | f/ | prompts.chat | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect promp"
+      },
+      {
+        "href": "/public-apis/public-apis",
+        "text": "9 | public-apis/ | public-apis | A collective list of free APIs | +736 | 关注 · 本周 | 共 40.3万"
+      },
+      {
+        "href": "/codecrafters-io/build-your-own-x",
+        "text": "10 | codecrafters-io/ | build-your-own-x | Master programming by recreating your favorite "
+      },
+      {
+        "href": "/firecrawl/firecrawl",
+        "text": "11 | firecrawl/ | firecrawl | 🔥 The Web Data API for AI - Turn entire websites into LLM-r"
+      },
+      {
+        "href": "/shubhamsaboo/awesome-llm-apps",
+        "text": "12 | Shubhamsaboo/ | awesome-llm-apps | Collection of awesome LLM apps with AI Agents and "
+      },
+      {
+        "href": "/daytonaio/daytona",
+        "text": "13 | daytonaio/ | daytona | Daytona is a Secure and Elastic Infrastructure for Running AI-"
+      },
+      {
+        "href": "/sindresorhus/awesome",
+        "text": "14 | sindresorhus/ | awesome | 😎 Awesome lists about all kinds of interesting topics | +5"
+      },
+      {
+        "href": "/ladybirdbrowser/ladybird",
+        "text": "15 | LadybirdBrowser/ | ladybird | Truly independent web browser | +523 | 关注 · 本周 | 共 6.1万"
+      },
+      {
+        "href": "/github/spec-kit",
+        "text": "16 | github/ | spec-kit | 💫 Toolkit to help you get started with Spec-Driven Development "
+      },
+      {
+        "href": "/digitalplatdev/freedomain",
+        "text": "17 | DigitalPlatDev/ | FreeDomain | DigitalPlat FreeDomain: Free Domain For Everyone | +49"
+      },
+      {
+        "href": "/microsoft/markitdown",
+        "text": "18 | microsoft/ | markitdown | Python tool for converting files and office documents to Ma"
+      },
+      {
+        "href": "/clash-verge-rev/clash-verge-rev",
+        "text": "19 | clash-verge-rev/ | clash-verge-rev | A modern GUI client based on Tauri, designed to "
+      },
+      {
+        "href": "/torvalds/linux",
+        "text": "20 | torvalds/ | linux | Linux kernel source tree | +453 | 关注 · 本周 | 共 22万 | 后端"
+      }
+    ]
+  },
+  "w1440": {
+    "loadMs": 3335,
+    "layout": {
+      "innerW": 1440,
+      "innerH": 900,
+      "scrollW": 1440,
+      "scrollH": 3058,
+      "overflowX": false,
+      "outOfView": [],
+      "truncated": [
+        {
+          "tag": "SPAN",
+          "sw": 298,
+          "cw": 236,
+          "text": "system-prompts-and-models"
+        }
+      ],
+      "h1": "现在什么技术在起飞？",
+      "firstScreenText": "Starboard\nBlog\n连接 GitHub\nHow to use this site\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\nAI\n2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augment Code, Claude Code, Cluely, Code"
+    },
+    "cards": [
+      {
+        "href": "/blog/how-to-use-github-star-history",
+        "text": "How to use this site"
+      },
+      {
+        "href": "/openclaw/openclaw",
+        "text": "1 | openclaw/ | openclaw | Your own personal AI assistant. Any OS. Any Platform. The lobst"
+      },
+      {
+        "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "text": "2 | x1xhlol/ | system-prompts-and-models-of-ai-tools | FULL Augment Code, Claude Code, Clu"
+      },
+      {
+        "href": "/obra/superpowers",
+        "text": "3 | obra/ | superpowers | An agentic skills framework & software development methodology t"
+      },
+      {
+        "href": "/anthropics/skills",
+        "text": "4 | anthropics/ | skills | Public repository for Agent Skills | +1,970 | 关注 · 本周 | 共 8.1万 "
+      },
+      {
+        "href": "/affaan-m/everything-claude-code",
+        "text": "5 | affaan-m/ | everything-claude-code | The agent harness performance optimization system"
+      },
+      {
+        "href": "/anomalyco/opencode",
+        "text": "6 | anomalyco/ | opencode | The open source coding agent. | +1,397 | 关注 · 本周 | 共 11.4万 | A"
+      },
+      {
+        "href": "/anthropics/claude-code",
+        "text": "7 | anthropics/ | claude-code | Claude Code is an agentic coding tool that lives in your t"
+      },
+      {
+        "href": "/f/prompts.chat",
+        "text": "8 | f/ | prompts.chat | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect promp"
+      },
+      {
+        "href": "/public-apis/public-apis",
+        "text": "9 | public-apis/ | public-apis | A collective list of free APIs | +736 | 关注 · 本周 | 共 40.3万"
+      },
+      {
+        "href": "/codecrafters-io/build-your-own-x",
+        "text": "10 | codecrafters-io/ | build-your-own-x | Master programming by recreating your favorite "
+      },
+      {
+        "href": "/firecrawl/firecrawl",
+        "text": "11 | firecrawl/ | firecrawl | 🔥 The Web Data API for AI - Turn entire websites into LLM-r"
+      },
+      {
+        "href": "/shubhamsaboo/awesome-llm-apps",
+        "text": "12 | Shubhamsaboo/ | awesome-llm-apps | Collection of awesome LLM apps with AI Agents and "
+      },
+      {
+        "href": "/daytonaio/daytona",
+        "text": "13 | daytonaio/ | daytona | Daytona is a Secure and Elastic Infrastructure for Running AI-"
+      },
+      {
+        "href": "/sindresorhus/awesome",
+        "text": "14 | sindresorhus/ | awesome | 😎 Awesome lists about all kinds of interesting topics | +5"
+      },
+      {
+        "href": "/ladybirdbrowser/ladybird",
+        "text": "15 | LadybirdBrowser/ | ladybird | Truly independent web browser | +523 | 关注 · 本周 | 共 6.1万"
+      },
+      {
+        "href": "/github/spec-kit",
+        "text": "16 | github/ | spec-kit | 💫 Toolkit to help you get started with Spec-Driven Development "
+      },
+      {
+        "href": "/digitalplatdev/freedomain",
+        "text": "17 | DigitalPlatDev/ | FreeDomain | DigitalPlat FreeDomain: Free Domain For Everyone | +49"
+      },
+      {
+        "href": "/microsoft/markitdown",
+        "text": "18 | microsoft/ | markitdown | Python tool for converting files and office documents to Ma"
+      },
+      {
+        "href": "/clash-verge-rev/clash-verge-rev",
+        "text": "19 | clash-verge-rev/ | clash-verge-rev | A modern GUI client based on Tauri, designed to "
+      },
+      {
+        "href": "/torvalds/linux",
+        "text": "20 | torvalds/ | linux | Linux kernel source tree | +453 | 关注 · 本周 | 共 22万 | 后端"
+      }
+    ]
+  },
+  "hamBefore": {
+    "btns": [
+      {
+        "t": "",
+        "aria": "Toggle menu",
+        "exp": "false",
+        "vis": true
+      },
+      {
+        "t": "全部 20",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "t": "AI 13",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "t": "前端 1",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "t": "后端 3",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "t": "学习资源 3",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "t": "查看",
+        "aria": null,
+        "exp": null,
+        "vis": true
+      }
+    ]
+  },
+  "hamAfter": {
+    "navDisplay": null,
+    "links": []
+  },
+  "searchInput": {
+    "found": true,
+    "type": "text",
+    "ph": "输入项目名，例如 vuejs/core"
+  },
+  "searchVuejs": {
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "title": "vuejs/core - 53.1k Stars",
+    "h1": null,
+    "ms": 3505,
+    "modal": null
+  },
+  "searchNotexist": {
+    "url": "https://star-history-3wn.pages.dev/notexist/notexist",
+    "title": "",
+    "bodyLen": 114,
+    "bodyText": "Go\n\n🔭\n\nnotexist/notexist not found\n\nWe only track repositories with over 50k stars. Try another repository above."
+  },
+  "gate": {
+    "found": [],
+    "inputs": [
+      {
+        "type": "text",
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "name": "",
+        "id": ""
+      }
+    ],
+    "forms": [],
+    "hasTokenInput": false
+  },
+  "consoleErrors": [
+    {
+      "kind": "log",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "url": "https://star-history-3wn.pages.dev/_next/data/1nwq8ShDDcAoo5tSWOFI-/notexist/notexist.json?slug=notexist&slug=notexist"
+    },
+    {
+      "text": "Error: Failed to load static props\n    at https://star-history-3wn.pages.dev/_next/static/chunks/main-fc56ac81e639fb5e.js:1:62495\n    at async https://star-history-3wn.pages.dev/_next/static/chunks/main-fc56ac81e639fb5e.js:1:73826\n    at async V.getRouteInfo (https://star-history-3wn.pages.dev/_next/static/chunks/main-fc56ac81e639fb5e.js:1:73568)\n    at async V.change (https://star-history-3wn.pages.dev/_next/static/chunks/main-fc56ac81e639fb5e.js:1:67577)"
+    },
+    {
+      "kind": "log",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "url": "https://star-history-3wn.pages.dev/notexist/notexist"
+    },
+    {
+      "kind": "exception",
+      "text": "{\"exceptionId\":14,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":46430,\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"lg\",\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"lineNumber\":0,\"columnNumber\":46430},{\"functionName\":\"i\",\"scrip"
+    },
+    {
+      "kind": "exception",
+      "text": "{\"exceptionId\":15,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":46430,\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"lg\",\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"lineNumber\":0,\"columnNumber\":46430},{\"functionName\":\"i\",\"scrip"
+    },
+    {
+      "kind": "exception",
+      "text": "{\"exceptionId\":16,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":120814,\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"i\",\"scriptId\":\"8\",\"url\":\"https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js\",\"lineNumber\":0,\"columnNumber\":120814},{\"functionName\":\"oO\",\"scr"
+    }
+  ],
+  "netBad": [
+    {
+      "url": "https://star-history-3wn.pages.dev/_next/data/1nwq8ShDDcAoo5tSWOFI-/notexist/notexist.json?slug=notexist&slug=notexist",
+      "status": 404,
+      "type": "Fetch"
+    },
+    {
+      "url": "https://star-history-3wn.pages.dev/notexist/notexist",
+      "status": 404,
+      "type": "Document"
+    }
+  ]
+}

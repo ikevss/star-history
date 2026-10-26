@@ -1,0 +1,22 @@
+import { Session, newTarget, closeTarget, OUT } from './cdp.mjs';
+import fs from 'node:fs';
+const t = await newTarget('about:blank');
+const s = new Session(t.webSocketDebuggerUrl);
+await s.connect();
+await s.send('Page.enable'); await s.send('Runtime.enable');
+await s.send('Emulation.setDeviceMetricsOverride', { width: 1440, height: 900, deviceScaleFactor: 2, mobile: false });
+await s.send('Page.navigate', { url: 'https://star-history-3wn.pages.dev/' });
+await new Promise(r => setTimeout(r, 4000));
+const y = await s.evaluate(`(() => { const i=document.querySelector('input[aria-label="搜索开源项目"]'); const r=i.getBoundingClientRect(); return {top: Math.round(r.top+scrollY)}; })()`);
+await s.evaluate(`window.scrollTo(0, ${y.top - 320})`);
+await new Promise(r => setTimeout(r, 800));
+const info = await s.evaluate(`(() => {
+  const inp = document.querySelector('input[aria-label="搜索开源项目"]');
+  const wrap = inp.closest('div').parentElement;
+  const btn = wrap.querySelector('button');
+  return {btnText: btn?.innerText.trim(), btnHTML: btn?.outerHTML.slice(0,200), hint: wrap.innerText.replace(/\\n/g,' | ')};
+})()`);
+console.log(JSON.stringify(info, null, 2));
+const r = await s.send('Page.captureScreenshot', { format: 'png' });
+fs.writeFileSync(OUT + '/home-search-zoom.png', Buffer.from(r.data, 'base64'));
+await s.close(); await closeTarget(t.id);

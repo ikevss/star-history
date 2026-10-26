@@ -1,0 +1,52 @@
+{
+  "project-768": {
+    "vw": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "scrollWOverInner": false
+  },
+  "project-1440": {
+    "vw": 1440,
+    "scrollWidth": 1440,
+    "overflow": [],
+    "scrollWOverInner": false
+  },
+  "p404-375": {
+    "vw": 375,
+    "scrollWidth": 375,
+    "overflow": [],
+    "scrollWOverInner": false
+  },
+  "home375": {
+    "totalCards": 20,
+    "visibleCardsNoScroll": 3,
+    "adLabels": [
+      {
+        "href": "https://serpapi.com/?utm_source=starhistory",
+        "text": "Scrape search engine results easily using a simple",
+        "parentText": "Scrape search engine results easily using a simple API, including Google, Google Maps, Amazon, and more!Dify: Open-sourc"
+      },
+      {
+        "href": "https://dify.ai/?utm_source=star-history",
+        "text": "Dify: Open-source platform for building LLM apps, ",
+        "parentText": "Scrape search engine results easily using a simple API, including Google, Google Maps, Amazon, and more!Dify: Open-sourc"
+      },
+      {
+        "href": "https://bytebase.com/?utm_source=star-history",
+        "text": "Bytebase: Database DevSecOps for MySQL, PG, Oracle",
+        "parentText": "Scrape search engine results easily using a simple API, including Google, Google Maps, Amazon, and more!Dify: Open-sourc"
+      }
+    ],
+    "promoteText": "Promote your project",
+    "bodyHasSponsor": false
+  },
+  "p404-search": {
+    "clicked": "clicked",
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "title": "vuejs/core - 53.1k Stars"
+  },
+  "home-view-btn": {
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "title": "vuejs/core - 53.1k Stars"
+  }
+}

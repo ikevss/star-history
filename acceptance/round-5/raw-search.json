@@ -1,0 +1,130 @@
+[
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/",
+    "q": "vuejs/core",
+    "tag": "home-vuejs-core",
+    "typed": {
+      "value": "vuejs/core",
+      "url": "https://star-history-3wn.pages.dev/vuejs/core",
+      "ph": "输入项目名，例如 vuejs/core"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/vuejs/core",
+      "title": "vuejs/core · 53.1k 关注",
+      "value": "",
+      "dropdown": [],
+      "modalText": [],
+      "bodyHead": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #340 | Oct 26, 2026 | GLOBAL RANK | #340 | Oct 26, 2026 | vuejs | / | core | 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. | TypeScript | MIT | 始于 Jun 2018 | 53.1k | 9.1k | 32 | 本周 | 21 | 关注 | · | 78 |",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-home-vuejs-core.png"
+  },
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/",
+    "q": "notexist/notexist",
+    "tag": "home-notexist",
+    "typed": {
+      "value": "notexist/notexist",
+      "url": "https://star-history-3wn.pages.dev/",
+      "ph": "输入项目名，例如 vuejs/core"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "value": "notexist/notexist",
+      "dropdown": [],
+      "modalText": [],
+      "bodyHead": "Starboard | Blog | 使用说明 | 9,649 | 数据周期 · Feb 23 – Mar 1, 2026 |  | 当前展示的是最近一次完整统计周期，最新一周仍在采集。 |  | 现在什么技术在起飞？ |  | 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 |  | 全部 20 | AI 13 | 前端 1 | 后端 3 | 学习资源 3 | 1 | openclaw | AI |  | 来自 openclaw |  | Your own personal AI assistant. Any OS. Any Platform. The lobster way",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-home-notexist.png"
+  },
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/",
+    "q": "star-history/star-history",
+    "tag": "home-starhistory",
+    "typed": {
+      "value": "star-history/star-history",
+      "url": "https://star-history-3wn.pages.dev/",
+      "ph": "输入项目名，例如 vuejs/core"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "value": "star-history/star-history",
+      "dropdown": [],
+      "modalText": [],
+      "bodyHead": "Starboard | Blog | 使用说明 | 9,649 | 数据周期 · Feb 23 – Mar 1, 2026 |  | 当前展示的是最近一次完整统计周期，最新一周仍在采集。 |  | 现在什么技术在起飞？ |  | 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 |  | 全部 20 | AI 13 | 前端 1 | 后端 3 | 学习资源 3 | 1 | openclaw | AI |  | 来自 openclaw |  | Your own personal AI assistant. Any OS. Any Platform. The lobster way",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-home-starhistory.png"
+  },
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/",
+    "q": "",
+    "tag": "home-empty",
+    "typed": {
+      "value": "",
+      "url": "https://star-history-3wn.pages.dev/",
+      "ph": "输入项目名，例如 vuejs/core"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "value": "",
+      "dropdown": [],
+      "modalText": [],
+      "bodyHead": "Starboard | Blog | 使用说明 | 9,649 | 数据周期 · Feb 23 – Mar 1, 2026 |  | 当前展示的是最近一次完整统计周期，最新一周仍在采集。 |  | 现在什么技术在起飞？ |  | 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 |  | 全部 20 | AI 13 | 前端 1 | 后端 3 | 学习资源 3 | 1 | openclaw | AI |  | 来自 openclaw |  | Your own personal AI assistant. Any OS. Any Platform. The lobster way",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-home-empty.png"
+  },
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/",
+    "q": "!!@@##",
+    "tag": "home-junk",
+    "typed": {
+      "value": "!!@@##",
+      "url": "https://star-history-3wn.pages.dev/",
+      "ph": "输入项目名，例如 vuejs/core"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/",
+      "title": "Starboard · 现在什么技术在起飞",
+      "value": "!!@@##",
+      "dropdown": [],
+      "modalText": [],
+      "bodyHead": "Starboard | Blog | 使用说明 | 9,649 | 数据周期 · Feb 23 – Mar 1, 2026 |  | 当前展示的是最近一次完整统计周期，最新一周仍在采集。 |  | 现在什么技术在起飞？ |  | 不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。 |  | 全部 20 | AI 13 | 前端 1 | 后端 3 | 学习资源 3 | 1 | openclaw | AI |  | 来自 openclaw |  | Your own personal AI assistant. Any OS. Any Platform. The lobster way",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-home-junk.png"
+  },
+  {
+    "startUrl": "https://star-history-3wn.pages.dev/openai/codex",
+    "q": "vuejs/core",
+    "tag": "detail-vuejs-core",
+    "typed": {
+      "value": "vuejs/core",
+      "url": "https://star-history-3wn.pages.dev/vuejs/core",
+      "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history"
+    },
+    "after": {
+      "url": "https://star-history-3wn.pages.dev/vuejs/core",
+      "title": "vuejs/core · 53.1k 关注",
+      "value": "vuejs/core",
+      "dropdown": [
+        "vuejs/core | ★ 53.1k"
+      ],
+      "modalText": [],
+      "bodyHead": "Starboard | Go | vuejs/core | ★ 53.1k | 返回首页 |  分享 | GLOBAL RANK | #340 | Oct 26, 2026 | GLOBAL RANK | #340 | Oct 26, 2026 | vuejs | / | core | 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. | TypeScript | MIT | 始于 Jun 2018 | 53.1k | 9.1k | 32 | ",
+      "hasEmptyState": false
+    },
+    "errors": [],
+    "shot": "/workspace/acceptance/round-5/screenshots/s-detail-vuejs-core.png"
+  }
+]

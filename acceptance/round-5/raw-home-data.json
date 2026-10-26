@@ -1,0 +1,426 @@
+{
+  "perf": {
+    "ttfb": 206,
+    "domContentLoaded": 819,
+    "load": 822,
+    "paints": [
+      {
+        "n": "first-paint",
+        "t": 648
+      },
+      {
+        "n": "first-contentful-paint",
+        "t": 648
+      }
+    ],
+    "lcp": null,
+    "slowest": [
+      {
+        "n": "blog-c07d5a0a1f2a0289.js",
+        "d": 1011,
+        "size": 11582
+      },
+      {
+        "n": "system-prompts-and-models-of-ai-tools.js",
+        "d": 1008,
+        "size": 981
+      },
+      {
+        "n": "skills.json?slug=anthropics&slug=skills",
+        "d": 1008,
+        "size": 668
+      },
+      {
+        "n": "%5B...slug%5D-d20bae47cce43b2b.js",
+        "d": 1007,
+        "size": 51469
+      },
+      {
+        "n": "star-history",
+        "d": 921,
+        "size": 0
+      },
+      {
+        "n": "star-history",
+        "d": 913,
+        "size": 0
+      },
+      {
+        "n": "%5Bslug%5D-8a9e9e54aad9fb9d.js",
+        "d": 758,
+        "size": 2789
+      },
+      {
+        "n": "how-to-use-github-star-history.json?slug",
+        "d": 613,
+        "size": 3698
+      }
+    ]
+  },
+  "cards": [
+    {
+      "href": "/blog/how-to-use-github-star-history",
+      "lines": [
+        "使用说明"
+      ]
+    },
+    {
+      "href": "/blog/how-to-use-github-star-history",
+      "lines": [
+        "使用说明"
+      ]
+    },
+    {
+      "href": "/openclaw/openclaw",
+      "lines": [
+        "1",
+        "openclaw",
+        "AI",
+        "来自 openclaw",
+        "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+        "+7,184",
+        "关注 · 本周",
+        "共 24.6万"
+      ]
+    },
+    {
+      "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "lines": [
+        "2",
+        "system-prompts-and-models-of-ai-tools",
+        "AI",
+        "来自 x1xhlol",
+        "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+        "+2,510",
+        "关注 · 本周",
+        "共 12.7万"
+      ]
+    },
+    {
+      "href": "/obra/superpowers",
+      "lines": [
+        "3",
+        "superpowers",
+        "AI",
+        "来自 obra",
+        "An agentic skills framework & software development methodology that works.",
+        "+2,376",
+        "关注 · 本周",
+        "共 6.8万"
+      ]
+    },
+    {
+      "href": "/anthropics/skills",
+      "lines": [
+        "4",
+        "skills",
+        "AI",
+        "来自 anthropics",
+        "Public repository for Agent Skills",
+        "+1,970",
+        "关注 · 本周",
+        "共 8.1万"
+      ]
+    },
+    {
+      "href": "/affaan-m/everything-claude-code",
+      "lines": [
+        "5",
+        "everything-claude-code",
+        "AI",
+        "来自 affaan-m",
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.",
+        "+1,855",
+        "关注 · 本周",
+        "共 5.7万"
+      ]
+    },
+    {
+      "href": "/anomalyco/opencode",
+      "lines": [
+        "6",
+        "opencode",
+        "AI",
+        "来自 anomalyco",
+        "The open source coding agent.",
+        "+1,397",
+        "关注 · 本周",
+        "共 11.4万"
+      ]
+    },
+    {
+      "href": "/anthropics/claude-code",
+      "lines": [
+        "7",
+        "claude-code",
+        "AI",
+        "来自 anthropics",
+        "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "+984",
+        "关注 · 本周",
+        "共 7.3万"
+      ]
+    },
+    {
+      "href": "/f/prompts.chat",
+      "lines": [
+        "8",
+        "prompts.chat",
+        "AI",
+        "来自 f",
+        "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+        "+829",
+        "关注 · 本周",
+        "共 15万"
+      ]
+    },
+    {
+      "href": "/public-apis/public-apis",
+      "lines": [
+        "9",
+        "public-apis",
+        "后端",
+        "来自 public-apis",
+        "A collective list of free APIs",
+        "+736",
+        "关注 · 本周",
+        "共 40.3万"
+      ]
+    },
+    {
+      "href": "/codecrafters-io/build-your-own-x",
+      "lines": [
+        "10",
+        "build-your-own-x",
+        "学习资源",
+        "来自 codecrafters-io",
+        "Master programming by recreating your favorite technologies from scratch.",
+        "+682",
+        "关注 · 本周",
+        "共 47万"
+      ]
+    },
+    {
+      "href": "/firecrawl/firecrawl",
+      "lines": [
+        "11",
+        "firecrawl",
+        "AI",
+        "来自 firecrawl",
+        "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+        "+617",
+        "关注 · 本周",
+        "共 8.7万"
+      ]
+    },
+    {
+      "href": "/shubhamsaboo/awesome-llm-apps",
+      "lines": [
+        "12",
+        "awesome-llm-apps",
+        "AI",
+        "来自 Shubhamsaboo",
+        "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+        "+604",
+        "关注 · 本周",
+        "共 9.9万"
+      ]
+    },
+    {
+      "href": "/daytonaio/daytona",
+      "lines": [
+        "13",
+        "daytona",
+        "AI",
+        "来自 daytonaio",
+        "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+        "+600",
+        "关注 · 本周",
+        "共 6.2万"
+      ]
+    },
+    {
+      "href": "/sindresorhus/awesome",
+      "lines": [
+        "14",
+        "awesome",
+        "学习资源",
+        "来自 sindresorhus",
+        "😎 Awesome lists about all kinds of interesting topics",
+        "+577",
+        "关注 · 本周",
+        "共 44.2万"
+      ]
+    },
+    {
+      "href": "/ladybirdbrowser/ladybird",
+      "lines": [
+        "15",
+        "ladybird",
+        "前端",
+        "来自 LadybirdBrowser",
+        "Truly independent web browser",
+        "+523",
+        "关注 · 本周",
+        "共 6.1万"
+      ]
+    },
+    {
+      "href": "/github/spec-kit",
+      "lines": [
+        "16",
+        "spec-kit",
+        "AI",
+        "来自 github",
+        "💫 Toolkit to help you get started with Spec-Driven Development",
+        "+504",
+        "关注 · 本周",
+        "共 7.3万"
+      ]
+    },
+    {
+      "href": "/digitalplatdev/freedomain",
+      "lines": [
+        "17",
+        "FreeDomain",
+        "学习资源",
+        "来自 DigitalPlatDev",
+        "DigitalPlat FreeDomain: Free Domain For Everyone",
+        "+490",
+        "关注 · 本周",
+        "共 15万"
+      ]
+    },
+    {
+      "href": "/microsoft/markitdown",
+      "lines": [
+        "18",
+        "markitdown",
+        "AI",
+        "来自 microsoft",
+        "Python tool for converting files and office documents to Markdown.",
+        "+489",
+        "关注 · 本周",
+        "共 8.9万"
+      ]
+    },
+    {
+      "href": "/clash-verge-rev/clash-verge-rev",
+      "lines": [
+        "19",
+        "clash-verge-rev",
+        "后端",
+        "来自 clash-verge-rev",
+        "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+        "+456",
+        "关注 · 本周",
+        "共 10万"
+      ]
+    },
+    {
+      "href": "/torvalds/linux",
+      "lines": [
+        "20",
+        "linux",
+        "后端",
+        "来自 torvalds",
+        "Linux kernel source tree",
+        "+453",
+        "关注 · 本周",
+        "共 22万"
+      ]
+    }
+  ],
+  "filterRes": [
+    {
+      "label": "AI 13",
+      "count": 15,
+      "titles": [
+        null,
+        null,
+        "openclaw",
+        "system-prompts-and-models-of-ai-tools",
+        "superpowers",
+        "skills",
+        "everything-claude-code",
+        "opencode",
+        "claude-code",
+        "prompts.chat",
+        "firecrawl",
+        "awesome-llm-apps",
+        "daytona",
+        "spec-kit",
+        "markitdown"
+      ],
+      "url": "https://star-history-3wn.pages.dev/",
+      "active": true
+    },
+    {
+      "label": "前端 1",
+      "count": 3,
+      "titles": [
+        null,
+        null,
+        "ladybird"
+      ],
+      "url": "https://star-history-3wn.pages.dev/",
+      "active": true
+    },
+    {
+      "label": "后端 3",
+      "count": 5,
+      "titles": [
+        null,
+        null,
+        "public-apis",
+        "clash-verge-rev",
+        "linux"
+      ],
+      "url": "https://star-history-3wn.pages.dev/",
+      "active": true
+    },
+    {
+      "label": "学习资源 3",
+      "count": 5,
+      "titles": [
+        null,
+        null,
+        "build-your-own-x",
+        "awesome",
+        "FreeDomain"
+      ],
+      "url": "https://star-history-3wn.pages.dev/",
+      "active": true
+    },
+    {
+      "label": "全部 20",
+      "count": 22,
+      "titles": [
+        null,
+        null,
+        "openclaw",
+        "system-prompts-and-models-of-ai-tools",
+        "superpowers",
+        "skills",
+        "everything-claude-code",
+        "opencode",
+        "claude-code",
+        "prompts.chat",
+        "public-apis",
+        "build-your-own-x",
+        "firecrawl",
+        "awesome-llm-apps",
+        "daytona",
+        "awesome",
+        "ladybird",
+        "spec-kit",
+        "FreeDomain",
+        "markitdown",
+        "clash-verge-rev",
+        "linux"
+      ],
+      "url": "https://star-history-3wn.pages.dev/",
+      "active": true
+    }
+  ]
+}

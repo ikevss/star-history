@@ -1,0 +1,47 @@
+{
+  "url": "https://star-history-3wn.pages.dev/vuejs/core",
+  "width": 1440,
+  "height": 1200,
+  "mobile": false,
+  "startedAt": "2026-10-26T09:15:26.681Z",
+  "title": "vuejs/core · 53.1k 关注",
+  "finalUrl": "https://star-history-3wn.pages.dev/vuejs/core",
+  "consoleErrors": [],
+  "exceptions": [],
+  "netBad": [],
+  "logErrors": [],
+  "layout": {
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1200
+    },
+    "docScrollWidth": 1440,
+    "docClientWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "overflowPx": 0,
+    "overflowingCount": 0,
+    "overflowing": [],
+    "truncatedCount": 0,
+    "truncated": []
+  },
+  "evalResults": [
+    {
+      "expr": "JSON.stringify((()=>{const all=Array.from(document.querySelectorAll(\"*\")).filter(e=>e.children.length===0&&/GLOBAL RANK/.test(e.textContent||\"\"));const back=Array.from(document.querySelectorAll(\"a\")).",
+      "value": "{\"globalRankEls\":[],\"back\":{\"href\":\"https://star-history-3wn.pages.dev/\",\"visible\":true},\"share\":{\"href\":\"https://x.com/intent/tweet?url=https%3A%2F%2Fstar-history-3w\",\"visible\":true}}"
+    },
+    {
+      "expr": "JSON.stringify((()=>{const els=Array.from(document.querySelectorAll(\"h1,h2\")).map(e=>e.innerText.slice(0,50));return {headings:els};})())",
+      "value": "{\"headings\":[]}"
+    }
+  ],
+  "bodyText": null,
+  "shotPath": null,
+  "timings": {
+    "loadMs": 969,
+    "loadEventFired": true,
+    "waitMs": 4000,
+    "totalMs": 4971
+  },
+  "finishedAt": "2026-10-26T09:15:31.711Z"
+}

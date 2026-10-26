@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "i": 11,
+      "href": "/firecrawl/firecrawl",
+      "cardText": "11 | firecrawl/ | firecrawl | 🔥 The Web Data API for AI - Turn entire websites into LLM-r",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/firecrawl/firecrawl",
+        "title": "firecrawl/firecrawl - 87.3k Stars",
+        "h1": null,
+        "bodyLen": 415,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#120\nOct 26, 2026\nGLOBAL RANK\n#120\nOct 26, 2026\nfirecrawl\n/\nfirecrawl\n🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data\nTypeScript\nAGPL-3.0\nsince Apr 2024\n87.3k\n6.2k\n96\nWEEKLY\n96\nstars\n·\n84\npushes\n·\n57\nissues closed\nstar-h",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 12,
+      "href": "/shubhamsaboo/awesome-llm-apps",
+      "cardText": "12 | Shubhamsaboo/ | awesome-llm-apps | Collection of awesome LLM apps with AI Agents and ",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/shubhamsaboo/awesome-llm-apps",
+        "title": "Shubhamsaboo/awesome-llm-apps - 99k Stars",
+        "h1": null,
+        "bodyLen": 446,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#90\nOct 26, 2026\nGLOBAL RANK\n#90\nOct 26, 2026\nShubhamsaboo\n/\nawesome-llm-apps\nCollection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\nPython\nApache-2.0\nsince Apr 2024\n99k\n14.4k\n96\nWEEKLY\n96\nstars\n·\n43\npushes\n·\n0\n",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 13,
+      "href": "/daytonaio/daytona",
+      "cardText": "13 | daytonaio/ | daytona | Daytona is a Secure and Elastic Infrastructure for Running AI-",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/daytonaio/daytona",
+        "title": "daytonaio/daytona - 61.6k Stars",
+        "h1": null,
+        "bodyLen": 397,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#257\nOct 26, 2026\nGLOBAL RANK\n#257\nOct 26, 2026\ndaytonaio\n/\ndaytona\nDaytona is a Secure and Elastic Infrastructure for Running AI-Generated Code\nTypeScript\nAGPL-3.0\nsince Feb 2024\n61.6k\n5.1k\n95\nWEEKLY\n96\nstars\n·\n90\npushes\n·\n69\nissues closed\nstar-history.com\n#256 ne",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 14,
+      "href": "/sindresorhus/awesome",
+      "cardText": "14 | sindresorhus/ | awesome | 😎 Awesome lists about all kinds of interesting topics | +5",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/sindresorhus/awesome",
+        "title": "sindresorhus/awesome - 441.8k Stars",
+        "h1": null,
+        "bodyLen": 373,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#2\nOct 26, 2026\nGLOBAL RANK\n#2\nOct 26, 2026\nsindresorhus\n/\nawesome\n😎 Awesome lists about all kinds of interesting topics\nCC0-1.0\nsince Jul 2014\n441.8k\n33.4k\n95\nWEEKLY\n95\nstars\n·\n43\npushes\n·\n0\nissues closed\nstar-history.com\n#1 build-your-own-x\n#2 of 374\nfreeCodeCam",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 15,
+      "href": "/ladybirdbrowser/ladybird",
+      "cardText": "15 | LadybirdBrowser/ | ladybird | Truly independent web browser | +523 | 关注 · 本周 | 共 6.1万",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/ladybirdbrowser/ladybird",
+        "title": "LadybirdBrowser/ladybird - 60.8k Stars",
+        "h1": null,
+        "bodyLen": 366,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#263\nOct 26, 2026\nGLOBAL RANK\n#263\nOct 26, 2026\nLadybirdBrowser\n/\nladybird\nTruly independent web browser\nC++\nBSD-2-Clause\nsince May 2024\n60.8k\n2.8k\n94\nWEEKLY\n95\nstars\n·\n83\npushes\n·\n69\nissues closed\nstar-history.com\n#262 atom\n#263 of 374\narchitect-awesome #264\n\nTrac",
+        "hasRepo": true
+      },
+      "netBad": []
+    }
+  ],
+  "consoleErrors": [],
+  "netBad": []
+}
