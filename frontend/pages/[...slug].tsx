@@ -163,6 +163,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
         avatarBase64: `https://avatars.githubusercontent.com/${repo.owner}?s=460`,
         radarSvgBase64,
         attributes: hasAttributes ? repo.attributes : null,
+        raw: repo.raw ?? null,
         rank: repo.rank,
         logoBase64: "/assets/logo-icon.png",
     }), [repo, radarSvgBase64])

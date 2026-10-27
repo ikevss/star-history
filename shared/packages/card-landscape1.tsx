@@ -55,6 +55,7 @@ export interface Landscape1Data {
   avatarBase64: string;
   radarSvgBase64: string | null;
   attributes: { stars: number; new_stars: number; pushes: number; contributors: number; issues_closed: number; forks: number } | null;
+  raw?: { new_stars: number; pushes: number; contributors: number; issues_closed: number; forks: number } | null;
   rank: number | null;
   logoBase64: string;
 }
@@ -363,7 +364,7 @@ export function buildLandscape1(data: Landscape1Data) {
                   h("circle", { cx: "22", cy: "6", r: "3.5", fill: "none", stroke: "#a3a3a3", "stroke-width": "1.3" }),
                   h("path", { d: "M16 22C16 17 18.5 14 22 14C25.5 14 28 17 28 22", fill: "none", stroke: "#a3a3a3", "stroke-width": "1.3", "stroke-linecap": "round" }),
                 ),
-                h("span", { style: { fontSize: 36, fontWeight: "bold", color: "#525252" } }, String(data.attributes.contributors)),
+                h("span", { style: { fontSize: 36, fontWeight: "bold", color: "#525252" } }, String(data.raw?.contributors ?? data.attributes.contributors)),
               )
             : null,
         ),
@@ -377,21 +378,21 @@ export function buildLandscape1(data: Landscape1Data) {
               h(
                 "div",
                 { title: `新增关注：${data.attributes.new_stars} · 超过 ${100 - data.attributes.new_stars}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
-                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.new_stars)),
+                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.new_stars ?? data.attributes.new_stars)),
                 h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "关注"),
               ),
               h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
               h(
                 "div",
                 { title: `代码提交：${data.attributes.pushes} · 超过 ${100 - data.attributes.pushes}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
-                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.pushes)),
+                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.pushes ?? data.attributes.pushes)),
                 h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "提交"),
               ),
               h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
               h(
                 "div",
                 { title: `已解决问题：${data.attributes.issues_closed} · 超过 ${100 - data.attributes.issues_closed}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
-                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.attributes.issues_closed)),
+                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.issues_closed ?? data.attributes.issues_closed)),
                 h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "已解决"),
               ),
             )

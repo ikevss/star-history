@@ -280,6 +280,13 @@ export function exportRepos(db: Database.Database): void {
         issues_closed: percentile(sorted.issues_closed, rawValues.issues_closed[i]),
         forks: percentile(sorted.forks, rawValues.forks[i]),
       },
+      raw: {
+        new_stars: rawValues.new_stars[i],
+        pushes: rawValues.pushes[i],
+        contributors: rawValues.contributors[i],
+        issues_closed: rawValues.issues_closed[i],
+        forks: rawValues.forks[i],
+      },
     };
   });
 

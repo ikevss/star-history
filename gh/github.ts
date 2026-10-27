@@ -39,11 +39,26 @@ function getNextToken(): string {
 }
 
 export async function githubFetch(url: string, retries = 0): Promise<any> {
+  const res = await githubFetchRaw(url, retries);
+  return res.data;
+}
+
+export interface RawResponse {
+  data: any;
+  headers: Headers;
+  status: number;
+}
+
+export async function githubFetchRaw(
+  url: string,
+  retries = 0,
+  accept = "application/vnd.github+json",
+): Promise<RawResponse> {
   const token = getNextToken();
   const res = await fetch(url, {
     headers: {
       Authorization: `Bearer ${token}`,
-      Accept: "application/vnd.github+json",
+      Accept: accept,
       "X-GitHub-Api-Version": "2022-11-28",
     },
   });
@@ -55,14 +70,21 @@ export async function githubFetch(url: string, retries = 0): Promise<any> {
     const resetAt = res.headers.get("x-ratelimit-reset");
     const resetStr = resetAt ? `, resets at ${new Date(Number(resetAt) * 1000).toISOString()}` : "";
     console.warn(`[GitHub] Rate limited (token ...${token.slice(-4)})${resetStr}, retrying`);
-    return githubFetch(url, retries + 1);
+    return githubFetchRaw(url, retries + 1, accept);
   }
 
   if (!res.ok) {
     throw new Error(`GitHub API error: ${res.status} ${res.statusText} for ${url}`);
   }
 
-  return res.json();
+  const data = await res.json();
+  return { data, headers: res.headers, status: res.status };
+}
+
+export function lastPageFromLink(link: string | null): number | null {
+  if (!link) return null;
+  const m = /[?&]page=(\d+)[^>]*>;\s*rel="last"/.exec(link);
+  return m ? Number(m[1]) : null;
 }
 
 export const MIN_STARS = 50000;

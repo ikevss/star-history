@@ -130,6 +130,7 @@ const startServer = async () => {
           created_at: gh.created_at,
           avatarBase64,
           attributes: cardData.attributes,
+          raw: (cardData as any).raw ?? null,
           rank: cardData.rank,
         });
         ogCardCache.set(repo, svg);

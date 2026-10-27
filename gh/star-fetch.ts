@@ -1,6 +1,6 @@
 import { createDatabase, insertRepos, insertStats, insertStarCounts, formatDate, getWeeklyDate, exportLeaderboard, exportWeeklyRanking, exportRepos, exportStarCounts } from "./db.js";
 import { fetchQualifyingRepos, githubFetch as ghFetch } from "./github.js";
-import { fetchRepoStats } from "./bigquery.js";
+import { fetchRepoStatsFromGitHub } from "./github-stats.js";
 import { fetchStarCount } from "./star-count.js";
 
 function validateWeek(w: string): void {
@@ -94,11 +94,11 @@ async function main() {
   }
 
   // Pass 2: Fetch weekly stats for each target week
-  const repoNames = qualifyingRepos.map((r) => r.name);
+  const statsInput = qualifyingRepos.map((r) => ({ name: r.name, star_count: r.star_count }));
   const allStats = [];
   for (const week of targetWeeks) {
     console.log(`\n--- Fetching ${week} ---`);
-    const stats = await fetchRepoStats(week, repoNames);
+    const stats = await fetchRepoStatsFromGitHub(week, statsInput);
     allStats.push(...stats);
   }
 

@@ -7,6 +7,14 @@ export interface RepoAttributes {
   forks: number;
 }
 
+export interface RepoRawMetrics {
+  new_stars: number;
+  pushes: number;
+  contributors: number;
+  issues_closed: number;
+  forks: number;
+}
+
 export interface RepoCardData {
   name: string;
   owner: string;
@@ -24,4 +32,5 @@ export interface RepoCardData {
   rank: number;
   total_repos: number;
   attributes: RepoAttributes;
+  raw?: RepoRawMetrics;
 }
