@@ -132,6 +132,10 @@ const startServer = async () => {
           attributes: cardData.attributes,
           raw: (cardData as any).raw ?? null,
           rank: cardData.rank,
+          dataDate: repoStore.dataPeriod ? (() => {
+            const m = repoStore.dataPeriod.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/);
+            return m ? `${m[1]} ${m[2]}, ${m[3]}` : null;
+          })() : null,
         });
         ogCardCache.set(repo, svg);
         return c.body(svg, 200, SVG_HEADERS);

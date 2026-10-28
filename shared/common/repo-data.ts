@@ -8,18 +8,21 @@ const REPOS_PATH = path.join(process.cwd(), "..", "gh", "data", "repos.json");
 
 export interface RepoStore {
   min_stars: number;
+  dataPeriod: string;
   repos: RepoCardData[];
   getRepo(name: string): RepoCardData | null;
 }
 
 export function loadRepos(): RepoStore {
   let min_stars = DEFAULT_MIN_STARS;
+  let dataPeriod = "";
   let repos: RepoCardData[] = [];
   const repoMap = new Map<string, RepoCardData>();
 
   try {
     const raw = JSON.parse(fs.readFileSync(REPOS_PATH, "utf-8"));
     min_stars = raw.min_stars ?? DEFAULT_MIN_STARS;
+    dataPeriod = raw.data_period ?? "";
     repos = raw.repos ?? [];
     for (const r of repos) {
       repoMap.set(r.name.toLowerCase(), r);
@@ -31,6 +34,7 @@ export function loadRepos(): RepoStore {
 
   return {
     min_stars,
+    dataPeriod,
     repos,
     getRepo: (name: string) => repoMap.get(name.toLowerCase()) ?? null,
   };

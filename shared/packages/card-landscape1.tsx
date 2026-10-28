@@ -57,6 +57,7 @@ export interface Landscape1Data {
   attributes: { stars: number; new_stars: number; pushes: number; contributors: number; issues_closed: number; forks: number } | null;
   raw?: { new_stars: number; pushes: number; contributors: number; issues_closed: number; forks: number } | null;
   rank: number | null;
+  dataDate?: string | null;
   logoBase64: string;
 }
 
@@ -214,7 +215,7 @@ export function buildLandscape1(data: Landscape1Data) {
           ),
           // Engraved text — light emboss highlight below, deep stamped ink on top
           ...(() => {
-            const date = new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+            const date = data.dataDate || new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
             return [
               sealTextLayer(data.rank!, date, { label: "#fff6cc", rank: "#fff6cc", date: "#fff6cc" }, { top: 1.2, left: 1.2 }, 0.85),
               sealTextLayer(data.rank!, date, { label: "#61430e", rank: "#43300a", date: "#5c3f0c" }, { top: 0, left: 0 }),

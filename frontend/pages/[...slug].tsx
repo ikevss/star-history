@@ -13,6 +13,7 @@ import { SITE_URL, API_URL, EASTER_EGG_REPOS } from "../helpers/consts"
 import InteractiveRadar from "../components/InteractiveRadar"
 import { buildLandscape1 } from "@shared/packages/card-landscape1"
 import { renderRadarSvg } from "@shared/packages/radar-svg"
+import RepoMobileCard from "../components/RepoMobileCard"
 
 const CARD_WIDTH = 1200
 const CARD_HEIGHT = 630
@@ -74,8 +75,15 @@ interface NavRepo {
 interface RepoPageProps {
     repo: RepoCardData
     minStars: number
+    dataDate: string | null
     prevRepo: NavRepo | null
     nextRepo: NavRepo | null
+}
+
+function formatDataDate(period: string): string | null {
+    const m = period.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/)
+    if (!m) return null
+    return `${m[1]} ${m[2]}, ${m[3]}`
 }
 
 const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void; downloading: boolean; tweetUrl: string }) => (
@@ -97,7 +105,7 @@ const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void
             <button
                 onClick={onDownload}
                 disabled={downloading}
-                className="text-neutral-400 hover:text-neutral-600 transition-colors disabled:opacity-40"
+                className="hidden text-neutral-400 transition-colors hover:text-neutral-600 disabled:opacity-40 md:block"
                 title="下载图片"
             >
                 <svg width="24" height="24" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
@@ -119,7 +127,7 @@ const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void
     </div>
 )
 
-const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo }) => {
+const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, dataDate, prevRepo, nextRepo }) => {
     const cardRef = useRef<HTMLDivElement>(null)
     const wrapperRef = useRef<HTMLDivElement>(null)
     const [scale, setScale] = useState(1)
@@ -165,6 +173,7 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
         attributes: hasAttributes ? repo.attributes : null,
         raw: repo.raw ?? null,
         rank: repo.rank,
+        dataDate,
         logoBase64: "/assets/logo-icon.png",
     }), [repo, radarSvgBase64])
 
@@ -367,9 +376,13 @@ const RepoPage: NextPage<RepoPageProps> = ({ repo, minStars, prevRepo, nextRepo 
             }>
                 <Toolbar onDownload={handleDownload} downloading={downloading} tweetUrl={tweetUrl} />
 
+                <div className="w-full max-w-5xl md:hidden">
+                    <RepoMobileCard repo={repo} />
+                </div>
+
                 <div
                     ref={wrapperRef}
-                    className="w-full max-w-5xl rounded-2xl shadow-xl overflow-hidden [&_[data-repo-name]]:cursor-pointer [&_[data-repo-name]:hover]:underline"
+                    className="hidden w-full max-w-5xl overflow-hidden rounded-2xl shadow-xl md:block [&_[data-repo-name]]:cursor-pointer [&_[data-repo-name]:hover]:underline"
                     style={{ aspectRatio: `${CARD_WIDTH}/${CARD_HEIGHT}` }}
                     onClick={(e) => {
                         const target = (e.target as HTMLElement).closest?.("[data-repo-name]")
@@ -512,6 +525,7 @@ export const getStaticProps: GetStaticProps<RepoPageProps> = async ({ params }) 
         props: {
             repo,
             minStars: store.min_stars,
+            dataDate: formatDataDate(store.dataPeriod),
             prevRepo: prev ? { name: prev.name, rank: prev.rank } : null,
             nextRepo: next ? { name: next.name, rank: next.rank } : null,
         },

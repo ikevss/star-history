@@ -290,7 +290,7 @@ export function exportRepos(db: Database.Database): void {
     };
   });
 
-  const output = { min_stars: MIN_STARS, repos: cards };
+  const output = { min_stars: MIN_STARS, data_period: getWeeklyDate(db), repos: cards };
   const outPath = path.join(DATA_DIR, "repos.json");
   writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n");
   console.log(`Exported ${cards.length} repos to repos.json`);

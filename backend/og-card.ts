@@ -17,6 +17,7 @@ export interface OgCardInput {
   attributes: RepoAttributes | null;
   raw?: { new_stars: number; pushes: number; contributors: number; issues_closed: number; forks: number } | null;
   rank: number | null;
+  dataDate?: string | null;
 }
 
 // ---------- Assets (loaded once at init) ----------
