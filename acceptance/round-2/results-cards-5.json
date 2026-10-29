@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "i": 6,
+      "href": "/anomalyco/opencode",
+      "cardText": "6 | anomalyco/ | opencode | The open source coding agent. | +1,397 | 关注 · 本周 | 共 11.4万 | A",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/anomalyco/opencode",
+        "title": "anomalyco/opencode - 114k Stars",
+        "h1": null,
+        "bodyLen": 331,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#65\nOct 26, 2026\nGLOBAL RANK\n#65\nOct 26, 2026\nanomalyco\n/\nopencode\nThe open source coding agent.\nTypeScript\nMIT\nsince Apr 2025\n114k\n11.5k\n97\nWEEKLY\n97\nstars\n·\n94\npushes\n·\n97\nissues closed\nstar-history.com\n#64 node\n#65 of 374\nd3 #66\n\nTracking repos with 50k+ stars\n\n",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 7,
+      "href": "/anthropics/claude-code",
+      "cardText": "7 | anthropics/ | claude-code | Claude Code is an agentic coding tool that lives in your t",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/anthropics/claude-code",
+        "title": "anthropics/claude-code - 72.6k Stars",
+        "h1": null,
+        "bodyLen": 444,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#186\nOct 26, 2026\nGLOBAL RANK\n#186\nOct 26, 2026\nanthropics\n/\nclaude-code\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...\nShell\nsince Feb 2025\n72.6k\n5.8k\n98\nWEEKLY\n97\nstars\n·\n69\npushes\n·\n99\niss",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 8,
+      "href": "/f/prompts.chat",
+      "cardText": "8 | f/ | prompts.chat | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect promp",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/f/prompts.chat",
+        "title": "f/prompts.chat - 149.6k Stars",
+        "h1": null,
+        "bodyLen": 425,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#40\nOct 26, 2026\nGLOBAL RANK\n#40\nOct 26, 2026\nf\n/\nprompts.chat\nf.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...\nHTML\nCC0-1.0\nsince Dec 2022\n149.6k\n19.7k\n97\nWEEKLY\n97\nstars\n·\n52\npushes\n·\n0\nissue",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 9,
+      "href": "/public-apis/public-apis",
+      "cardText": "9 | public-apis/ | public-apis | A collective list of free APIs | +736 | 关注 · 本周 | 共 40.3万",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/public-apis/public-apis",
+        "title": "public-apis/public-apis - 402.5k Stars",
+        "h1": null,
+        "bodyLen": 364,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#4\nOct 26, 2026\nGLOBAL RANK\n#4\nOct 26, 2026\npublic-apis\n/\npublic-apis\nA collective list of free APIs\nPython\nMIT\nsince Mar 2016\n402.5k\n43.3k\n97\nWEEKLY\n97\nstars\n·\n0\npushes\n·\n75\nissues closed\nstar-history.com\n#3 freeCodeCamp\n#4 of 374\nfree-programming-books #5\n\nTracki",
+        "hasRepo": true
+      },
+      "netBad": []
+    },
+    {
+      "i": 10,
+      "href": "/codecrafters-io/build-your-own-x",
+      "cardText": "10 | codecrafters-io/ | build-your-own-x | Master programming by recreating your favorite ",
+      "clicked": "yes",
+      "page": {
+        "url": "https://star-history-3wn.pages.dev/codecrafters-io/build-your-own-x",
+        "title": "codecrafters-io/build-your-own-x - 470.4k Stars",
+        "h1": null,
+        "bodyLen": 391,
+        "bodyText": "Go\nBack to home\n Share\nGLOBAL RANK\n#1\nOct 26, 2026\nGLOBAL RANK\n#1\nOct 26, 2026\ncodecrafters-io\n/\nbuild-your-own-x\nMaster programming by recreating your favorite technologies from scratch.\nMarkdown\nsince May 2018\n470.4k\n44.1k\n96\nWEEKLY\n96\nstars\n·\n0\npushes\n·\n0\nissues closed\nstar-history.com\n#1 of 374\n",
+        "hasRepo": true
+      },
+      "netBad": []
+    }
+  ],
+  "consoleErrors": [],
+  "netBad": []
+}

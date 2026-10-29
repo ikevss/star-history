@@ -1,0 +1,166 @@
+{
+  "title": "Starboard · 现在什么技术在起飞",
+  "innerW": 1440,
+  "innerH": 900,
+  "scrollW": 1425,
+  "scrollH": 3058,
+  "overflowX": false,
+  "bodyText": "Starboard\nBlog\n连接 GitHub\nHow to use this site\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\nAI\n2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n+2,510\n关注 · 本周\n共 12.7万\nAI\n3\nobra/\nsuperpowers\n\nAn agentic skills framework & software development methodology that works.\n\n+2,376\n关注 · 本周\n共 6.8万\nAI\n4\nanthropics/\nskills\n\nPublic repository for Agent Skills\n\n+1,970\n关注 · 本周\n共 8.1万\nAI\n5\naffaan-m/\neverything-claude-code\n\nThe agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.\n\n+1,855\n关注 · 本周\n共 5.7万\nAI\n6\nanomalyco/\nopencode\n\nThe open source coding agent.\n\n+1,397\n关注 · 本周\n共 11.4万\nAI\n7\nanthropics/\nclaude-code\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n+984\n关注 ·",
+  "h1": "现在什么技术在起飞？",
+  "h2": [
+    "这些数字意味着什么？",
+    "想查某个具体项目？"
+  ],
+  "links": [
+    {
+      "t": "Starboard",
+      "href": "/"
+    },
+    {
+      "t": "Blog",
+      "href": "/blog"
+    },
+    {
+      "t": "How to use this site",
+      "href": "/blog/how-to-use-github-star-history"
+    },
+    {
+      "t": "9,648",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "t": "9,648",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "t": "1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS",
+      "href": "/openclaw/openclaw"
+    },
+    {
+      "t": "2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augme",
+      "href": "/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "t": "3\nobra/\nsuperpowers\n\nAn agentic skills framework & software ",
+      "href": "/obra/superpowers"
+    },
+    {
+      "t": "4\nanthropics/\nskills\n\nPublic repository for Agent Skills\n\n+1",
+      "href": "/anthropics/skills"
+    },
+    {
+      "t": "5\naffaan-m/\neverything-claude-code\n\nThe agent harness perfor",
+      "href": "/affaan-m/everything-claude-code"
+    },
+    {
+      "t": "6\nanomalyco/\nopencode\n\nThe open source coding agent.\n\n+1,397",
+      "href": "/anomalyco/opencode"
+    },
+    {
+      "t": "7\nanthropics/\nclaude-code\n\nClaude Code is an agentic coding ",
+      "href": "/anthropics/claude-code"
+    },
+    {
+      "t": "8\nf/\nprompts.chat\n\nf.k.a. Awesome ChatGPT Prompts. Share, di",
+      "href": "/f/prompts.chat"
+    },
+    {
+      "t": "9\npublic-apis/\npublic-apis\n\nA collective list of free APIs\n\n",
+      "href": "/public-apis/public-apis"
+    },
+    {
+      "t": "10\ncodecrafters-io/\nbuild-your-own-x\n\nMaster programming by ",
+      "href": "/codecrafters-io/build-your-own-x"
+    },
+    {
+      "t": "11\nfirecrawl/\nfirecrawl\n\n🔥 The Web Data API for AI - Turn e",
+      "href": "/firecrawl/firecrawl"
+    },
+    {
+      "t": "12\nShubhamsaboo/\nawesome-llm-apps\n\nCollection of awesome LLM",
+      "href": "/shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "t": "13\ndaytonaio/\ndaytona\n\nDaytona is a Secure and Elastic Infra",
+      "href": "/daytonaio/daytona"
+    },
+    {
+      "t": "14\nsindresorhus/\nawesome\n\n😎 Awesome lists about all kinds o",
+      "href": "/sindresorhus/awesome"
+    },
+    {
+      "t": "15\nLadybirdBrowser/\nladybird\n\nTruly independent web browser\n",
+      "href": "/ladybirdbrowser/ladybird"
+    },
+    {
+      "t": "16\ngithub/\nspec-kit\n\n💫 Toolkit to help you get started with",
+      "href": "/github/spec-kit"
+    },
+    {
+      "t": "17\nDigitalPlatDev/\nFreeDomain\n\nDigitalPlat FreeDomain: Free ",
+      "href": "/digitalplatdev/freedomain"
+    },
+    {
+      "t": "18\nmicrosoft/\nmarkitdown\n\nPython tool for converting files a",
+      "href": "/microsoft/markitdown"
+    },
+    {
+      "t": "19\nclash-verge-rev/\nclash-verge-rev\n\nA modern GUI client bas",
+      "href": "/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "t": "20\ntorvalds/\nlinux\n\nLinux kernel source tree\n\n+453\n关注 · 本周\n共",
+      "href": "/torvalds/linux"
+    },
+    {
+      "t": "Dify: Open-source platform for building LLM apps, from agent",
+      "href": "https://dify.ai/?utm_source=star-history"
+    },
+    {
+      "t": "Scrape search engine results easily using a simple API, incl",
+      "href": "https://serpapi.com/?utm_source=starhistory"
+    },
+    {
+      "t": "Bytebase: Database DevSecOps for MySQL, PG, Oracle, SQL Serv",
+      "href": "https://bytebase.com?utm_source=star-history"
+    },
+    {
+      "t": "Promote your project",
+      "href": "mailto:star@bytebase.com?subject=I'm interested in sponsoring star-history.com"
+    },
+    {
+      "t": "",
+      "href": "mailto:star@bytebase.com"
+    },
+    {
+      "t": "",
+      "href": "https://x.com/StarHistoryHQ"
+    },
+    {
+      "t": "",
+      "href": "https://rss.beehiiv.com/feeds/BbNzf9ozGZ.xml"
+    },
+    {
+      "t": "pgconsole",
+      "href": "https://www.pgconsole.com"
+    },
+    {
+      "t": "pgschema",
+      "href": "https://www.pgschema.com/"
+    },
+    {
+      "t": "DBHub",
+      "href": "https://dbhub.ai"
+    },
+    {
+      "t": "Bytebase",
+      "href": "https://bytebase.com"
+    },
+    {
+      "t": "@tim_qian",
+      "href": "https://x.com/tim_qian"
+    }
+  ],
+  "imgCount": 7,
+  "brokenImgs": []
+}

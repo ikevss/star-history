@@ -1,0 +1,180 @@
+{
+  "homeLoadMs": 5269,
+  "homeErrors": [],
+  "homeNetBad": [],
+  "homeGate": {
+    "found": [
+      "注册",
+      "连接 GitHub"
+    ],
+    "bodyHead": "Starboard\nBlog\n连接 GitHub\nHow to use this site\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenc",
+    "inputs": [
+      {
+        "type": "text",
+        "ph": "输入项目名，例如 vuejs/core"
+      }
+    ]
+  },
+  "hamDeepBefore": {
+    "btns": [
+      {
+        "i": 0,
+        "t": "",
+        "aria": "Toggle menu",
+        "controls": null,
+        "exp": "false",
+        "vis": true
+      },
+      {
+        "i": 1,
+        "t": "全部 20",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "i": 2,
+        "t": "AI 13",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "i": 3,
+        "t": "前端 1",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "i": 4,
+        "t": "后端 3",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "i": 5,
+        "t": "学习资源 3",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      },
+      {
+        "i": 6,
+        "t": "查看",
+        "aria": null,
+        "controls": null,
+        "exp": null,
+        "vis": true
+      }
+    ],
+    "hasNav": false,
+    "navHTML": null
+  },
+  "hamDeepClick": "clicked",
+  "hamDeepAfter": {
+    "btnExpanded": "true",
+    "navCount": 0,
+    "visibleNavLinks": [
+      {
+        "t": "Starboard",
+        "href": "/",
+        "vis": true
+      },
+      {
+        "t": "Blog",
+        "href": "/blog",
+        "vis": true
+      }
+    ],
+    "allLinks": [
+      {
+        "t": "Starboard",
+        "href": "/",
+        "vis": true
+      },
+      {
+        "t": "Blog",
+        "href": "/blog",
+        "vis": true
+      },
+      {
+        "t": "How to use this site",
+        "href": "/blog/how-to-use-github-star-history",
+        "vis": false
+      },
+      {
+        "t": "9,648",
+        "href": "https://github.com/star-history/star-history",
+        "vis": false
+      },
+      {
+        "t": "9,648",
+        "href": "https://github.com/star-history/star-history",
+        "vis": true
+      },
+      {
+        "t": "1\nopenclaw/\nopenclaw\n\nYour own",
+        "href": "/openclaw/openclaw",
+        "vis": true
+      },
+      {
+        "t": "2\nx1xhlol/\nsystem-prompts-and-",
+        "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "vis": true
+      },
+      {
+        "t": "3\nobra/\nsuperpowers\n\nAn agenti",
+        "href": "/obra/superpowers",
+        "vis": true
+      },
+      {
+        "t": "4\nanthropics/\nskills\n\nPublic r",
+        "href": "/anthropics/skills",
+        "vis": true
+      },
+      {
+        "t": "5\naffaan-m/\neverything-claude-",
+        "href": "/affaan-m/everything-claude-code",
+        "vis": true
+      },
+      {
+        "t": "6\nanomalyco/\nopencode\n\nThe ope",
+        "href": "/anomalyco/opencode",
+        "vis": true
+      },
+      {
+        "t": "7\nanthropics/\nclaude-code\n\nCla",
+        "href": "/anthropics/claude-code",
+        "vis": true
+      },
+      {
+        "t": "8\nf/\nprompts.chat\n\nf.k.a. Awes",
+        "href": "/f/prompts.chat",
+        "vis": true
+      },
+      {
+        "t": "9\npublic-apis/\npublic-apis\n\nA ",
+        "href": "/public-apis/public-apis",
+        "vis": true
+      },
+      {
+        "t": "10\ncodecrafters-io/\nbuild-your",
+        "href": "/codecrafters-io/build-your-own-x",
+        "vis": true
+      }
+    ]
+  },
+  "hamBlogClick": {
+    "click": "clicked",
+    "url": "https://star-history-3wn.pages.dev/blog",
+    "title": "Star History Blog"
+  },
+  "afterErrors": []
+}

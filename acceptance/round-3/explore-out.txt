@@ -1,0 +1,222 @@
+{
+  "title": "Starboard · 现在什么技术在起飞",
+  "url": "https://star-history-3wn.pages.dev/",
+  "h1": [
+    "现在什么技术在起飞？"
+  ],
+  "h2": [
+    "这些数字意味着什么？",
+    "想查某个具体项目？"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "输入项目名，例如 vuejs/core",
+      "name": "",
+      "aria": "搜索开源项目"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "aria": "切换菜单",
+      "title": ""
+    },
+    {
+      "text": "全部 20",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "text": "AI 13",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "text": "前端 1",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "text": "后端 3",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "text": "学习资源 3",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "text": "查看",
+      "aria": null,
+      "title": ""
+    }
+  ],
+  "links": [
+    {
+      "text": "Starboard",
+      "href": "/"
+    },
+    {
+      "text": "Blog",
+      "href": "/blog"
+    },
+    {
+      "text": "使用说明",
+      "href": "/blog/how-to-use-github-star-history"
+    },
+    {
+      "text": "9,648",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "text": "Blog",
+      "href": "/blog"
+    },
+    {
+      "text": "使用说明",
+      "href": "/blog/how-to-use-github-star-history"
+    },
+    {
+      "text": "9,648",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "text": "1\nopenclaw/\nopenclaw\n\nYour own personal ",
+      "href": "/openclaw/openclaw"
+    },
+    {
+      "text": "2\nx1xhlol/\nsystem-prompts-and-models-of-",
+      "href": "/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "text": "3\nobra/\nsuperpowers\n\nAn agentic skills f",
+      "href": "/obra/superpowers"
+    },
+    {
+      "text": "4\nanthropics/\nskills\n\nPublic repository ",
+      "href": "/anthropics/skills"
+    },
+    {
+      "text": "5\naffaan-m/\neverything-claude-code\n\nThe ",
+      "href": "/affaan-m/everything-claude-code"
+    },
+    {
+      "text": "6\nanomalyco/\nopencode\n\nThe open source c",
+      "href": "/anomalyco/opencode"
+    },
+    {
+      "text": "7\nanthropics/\nclaude-code\n\nClaude Code i",
+      "href": "/anthropics/claude-code"
+    },
+    {
+      "text": "8\nf/\nprompts.chat\n\nf.k.a. Awesome ChatGP",
+      "href": "/f/prompts.chat"
+    },
+    {
+      "text": "9\npublic-apis/\npublic-apis\n\nA collective",
+      "href": "/public-apis/public-apis"
+    },
+    {
+      "text": "10\ncodecrafters-io/\nbuild-your-own-x\n\nMa",
+      "href": "/codecrafters-io/build-your-own-x"
+    },
+    {
+      "text": "11\nfirecrawl/\nfirecrawl\n\n🔥 The Web Data",
+      "href": "/firecrawl/firecrawl"
+    },
+    {
+      "text": "12\nShubhamsaboo/\nawesome-llm-apps\n\nColle",
+      "href": "/shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "text": "13\ndaytonaio/\ndaytona\n\nDaytona is a Secu",
+      "href": "/daytonaio/daytona"
+    },
+    {
+      "text": "14\nsindresorhus/\nawesome\n\n😎 Awesome lis",
+      "href": "/sindresorhus/awesome"
+    },
+    {
+      "text": "15\nLadybirdBrowser/\nladybird\n\nTruly inde",
+      "href": "/ladybirdbrowser/ladybird"
+    },
+    {
+      "text": "16\ngithub/\nspec-kit\n\n💫 Toolkit to help ",
+      "href": "/github/spec-kit"
+    },
+    {
+      "text": "17\nDigitalPlatDev/\nFreeDomain\n\nDigitalPl",
+      "href": "/digitalplatdev/freedomain"
+    },
+    {
+      "text": "18\nmicrosoft/\nmarkitdown\n\nPython tool fo",
+      "href": "/microsoft/markitdown"
+    },
+    {
+      "text": "19\nclash-verge-rev/\nclash-verge-rev\n\nA m",
+      "href": "/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "text": "20\ntorvalds/\nlinux\n\nLinux kernel source ",
+      "href": "/torvalds/linux"
+    },
+    {
+      "text": "Bytebase: Database DevSecOps for MySQL, ",
+      "href": "https://bytebase.com?utm_source=star-history"
+    },
+    {
+      "text": "Scrape search engine results easily usin",
+      "href": "https://serpapi.com/?utm_source=starhistory"
+    },
+    {
+      "text": "Dify: Open-source platform for building ",
+      "href": "https://dify.ai/?utm_source=star-history"
+    },
+    {
+      "text": "Promote your project",
+      "href": "mailto:star@bytebase.com?subject=I'm interested in sponsoring star-history.com"
+    },
+    {
+      "text": "",
+      "href": "mailto:star@bytebase.com"
+    },
+    {
+      "text": "",
+      "href": "https://x.com/StarHistoryHQ"
+    },
+    {
+      "text": "",
+      "href": "https://rss.beehiiv.com/feeds/BbNzf9ozGZ.xml"
+    },
+    {
+      "text": "pgconsole",
+      "href": "https://www.pgconsole.com"
+    },
+    {
+      "text": "pgschema",
+      "href": "https://www.pgschema.com/"
+    },
+    {
+      "text": "DBHub",
+      "href": "https://dbhub.ai"
+    },
+    {
+      "text": "Bytebase",
+      "href": "https://bytebase.com"
+    },
+    {
+      "text": "@tim_qian",
+      "href": "https://x.com/tim_qian"
+    }
+  ],
+  "bodyText": "Starboard\nBlog\n使用说明\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\nAI\n2\nx1xhlol/\nsystem-prompts-and-models-of-ai-tools\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n+2,510\n关注 · 本周\n共 12.7万\nAI\n3\nobra/\nsuperpowers\n\nAn agentic skills framework & software development methodology that works.\n\n+2,376\n关注 · 本周\n共 6.8万\nAI\n4\nanthropics/\nskills\n\nPublic repository for Agent Skills\n\n+1,970\n关注 · 本周\n共 8.1万\nAI\n5\naffaan-m/\neverything-claude-code\n\nThe agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.\n\n+1,855\n关注 · 本周\n共 5.7万\nAI\n6\nanomalyco/\nopencode\n\nThe open source coding agent.\n\n+1,397\n关注 · 本周\n共 11.4万\nAI\n7\nanthropics/\nclaude-code\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n+984\n关注 · 本周\n共 7.3万\nAI\n8\nf/\nprompts.chat\n\nf.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n\n+829\n关注 · 本周\n共 15万\nAI\n9\npublic-apis/\npublic-apis\n\nA collective list of free APIs\n\n+736\n关注 · 本周\n共 40.3万\n后端\n10\ncodecrafters-io/\nbuild-your-own-x\n\nMaster programming by recreating your favorite technologies from scratch.\n\n+682\n关注 · 本周\n共 47万\n学习资源\n11\nfirecrawl/\nfirecrawl\n\n🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data\n\n+617\n关注 · 本周\n共 8.7万\nAI\n12\nShubhamsaboo/\nawesome-llm-apps\n\nCollection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\n\n+604\n关注 · 本周\n共 9.9万\nAI\n13\ndaytonaio/\ndaytona\n\nDaytona is a Secure and Elastic Infrastructure for Running AI-Generated Code\n\n+600\n关注 · 本周\n共 6.2万\nAI\n14\nsindresorhus/\nawesome\n\n😎 Awesome lists about all kinds of interesting topics\n\n+577\n关注 · 本周\n共 44.2万\n学习资源\n15\nLadybirdBrowser/\nladybird\n\nTruly independent web browser\n\n+523\n关注 · 本周\n共 6.1万\n前端\n16\ngithub/\nspec-kit\n\n💫 Toolkit to help you get started with Spec-Driven Development\n\n+504\n关注 · 本周\n共 7.3万\nAI\n17\nDigitalPlatDev/\nFreeDomain\n\nDigitalPlat FreeDomain: Free Domain For Everyone\n\n+490\n关注 · 本周\n共 15万\n学习资源\n18\nmicrosoft/\nmarkitdown\n\nPython tool for converting files and office documents to Markdown.\n\n+489\n关注 · 本周\n共 8.9万\nAI\n19\nclash-verge-rev/\nclash-verge-rev\n\nA modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tail",
+  "scrollWidth": 1425,
+  "innerWidth": 1440
+}
+CONSOLE_ERRORS []
+LOG_ERRORS []
+PAGE_ERRORS []
+BAD_RESPONSES []

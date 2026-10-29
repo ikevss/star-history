@@ -1,0 +1,417 @@
+[
+  {
+    "href": "/openclaw/openclaw",
+    "status": 200,
+    "title": "openclaw/openclaw · 245.7k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #13 | Oct 26, 2026 | GLOBAL RANK | #13 | Oct 26, 2026 | openclaw | / | openclaw | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | TypeScript | MIT | 始于 Nov 2025 | 245.7k | 47.5k | 99 | 本周 ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "status": 200,
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools · 127.1k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #54 | Oct 26, 2026 | GLOBAL RANK | #54 | Oct 26, 2026 | x1xhlol | / | system-prompts-and-models-of-ai-tools | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/obra/superpowers",
+    "status": 200,
+    "title": "obra/superpowers · 67.6k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #220 | Oct 26, 2026 | GLOBAL RANK | #220 | Oct 26, 2026 | obra | / | superpowers | An agentic skills framework & software development methodology that works. | Shell | MIT | 始于 Oct 2025 | 67.6k | 5.2k | 98 | 本周 | 98 ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/anthropics/skills",
+    "status": 200,
+    "title": "anthropics/skills · 80.9k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #142 | Oct 26, 2026 | GLOBAL RANK | #142 | Oct 26, 2026 | anthropics | / | skills | Public repository for Agent Skills | Python | 始于 Sep 2025 | 80.9k | 8.5k | 98 | 本周 | 98 | 关注 | · | 50 | 提交 | · | 0 | 已解决 | Starboard",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/affaan-m/everything-claude-code",
+    "status": 200,
+    "title": "affaan-m/everything-claude-code · 56.8k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #299 | Oct 26, 2026 | GLOBAL RANK | #299 | Oct 26, 2026 | affaan-m | / | everything-claude-code | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first developmen.",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/anomalyco/opencode",
+    "status": 200,
+    "title": "anomalyco/opencode · 114k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #65 | Oct 26, 2026 | GLOBAL RANK | #65 | Oct 26, 2026 | anomalyco | / | opencode | The open source coding agent. | TypeScript | MIT | 始于 Apr 2025 | 114k | 11.5k | 97 | 本周 | 97 | 关注 | · | 94 | 提交 | · | 97 | 已解决 | Star",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": [
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at rh (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:40255)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:100714\n    at oD (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:106225)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99173)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at lg (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:46551)\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:121146)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94026)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      },
+      {
+        "type": "exception",
+        "text": "Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at i (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:120815)\n    at oO (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:99113)\n    at https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98980\n    at oF (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:98987)\n    at ox (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:95739)\n    at oS (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:94294)\n    at x (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:137509)\n    at MessagePort.T (https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js:1:138039)",
+        "url": "https://star-history-3wn.pages.dev/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "line": 0
+      }
+    ]
+  },
+  {
+    "href": "/anthropics/claude-code",
+    "status": 200,
+    "title": "anthropics/claude-code · 72.6k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #186 | Oct 26, 2026 | GLOBAL RANK | #186 | Oct 26, 2026 | anthropics | / | claude-code | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast... | Shel",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/f/prompts.chat",
+    "status": 200,
+    "title": "f/prompts.chat · 149.6k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #40 | Oct 26, 2026 | GLOBAL RANK | #40 | Oct 26, 2026 | f | / | prompts.chat | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-... | HTML | CC0-1.0",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/public-apis/public-apis",
+    "status": 200,
+    "title": "public-apis/public-apis · 402.5k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #4 | Oct 26, 2026 | GLOBAL RANK | #4 | Oct 26, 2026 | public-apis | / | public-apis | A collective list of free APIs | Python | MIT | 始于 Mar 2016 | 402.5k | 43.3k | 97 | 本周 | 97 | 关注 | · | 0 | 提交 | · | 75 | 已解决 | Sta",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/codecrafters-io/build-your-own-x",
+    "status": 200,
+    "title": "codecrafters-io/build-your-own-x · 470.4k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #1 | Oct 26, 2026 | GLOBAL RANK | #1 | Oct 26, 2026 | codecrafters-io | / | build-your-own-x | Master programming by recreating your favorite technologies from scratch. | Markdown | 始于 May 2018 | 470.4k | 44.1k | 96 ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/firecrawl/firecrawl",
+    "status": 200,
+    "title": "firecrawl/firecrawl · 87.3k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #120 | Oct 26, 2026 | GLOBAL RANK | #120 | Oct 26, 2026 | firecrawl | / | firecrawl | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | TypeScript | AGPL-3.0 | 始于 Apr 2024",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/shubhamsaboo/awesome-llm-apps",
+    "status": 200,
+    "title": "Shubhamsaboo/awesome-llm-apps · 99k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #90 | Oct 26, 2026 | GLOBAL RANK | #90 | Oct 26, 2026 | Shubhamsaboo | / | awesome-llm-apps | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | Python | Ap",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/daytonaio/daytona",
+    "status": 200,
+    "title": "daytonaio/daytona · 61.6k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #257 | Oct 26, 2026 | GLOBAL RANK | #257 | Oct 26, 2026 | daytonaio | / | daytona | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | TypeScript | AGPL-3.0 | 始于 Feb 2024 | 61.6k | 5.1k | ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/sindresorhus/awesome",
+    "status": 200,
+    "title": "sindresorhus/awesome · 441.8k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #2 | Oct 26, 2026 | GLOBAL RANK | #2 | Oct 26, 2026 | sindresorhus | / | awesome | 😎 Awesome lists about all kinds of interesting topics | CC0-1.0 | 始于 Jul 2014 | 441.8k | 33.4k | 95 | 本周 | 95 | 关注 | · | 43 | 提交 | ·",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/ladybirdbrowser/ladybird",
+    "status": 200,
+    "title": "LadybirdBrowser/ladybird · 60.8k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #263 | Oct 26, 2026 | GLOBAL RANK | #263 | Oct 26, 2026 | LadybirdBrowser | / | ladybird | Truly independent web browser | C++ | BSD-2-Clause | 始于 May 2024 | 60.8k | 2.8k | 94 | 本周 | 95 | 关注 | · | 83 | 提交 | · | 69 | ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/github/spec-kit",
+    "status": 200,
+    "title": "github/spec-kit · 73.2k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #180 | Oct 26, 2026 | GLOBAL RANK | #180 | Oct 26, 2026 | github | / | spec-kit | 💫 Toolkit to help you get started with Spec-Driven Development | Python | MIT | 始于 Aug 2025 | 73.2k | 6.3k | 94 | 本周 | 95 | 关注 | · | ",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/digitalplatdev/freedomain",
+    "status": 200,
+    "title": "DigitalPlatDev/FreeDomain · 150.2k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #39 | Oct 26, 2026 | GLOBAL RANK | #39 | Oct 26, 2026 | DigitalPlatDev | / | FreeDomain | DigitalPlat FreeDomain: Free Domain For Everyone | HTML | AGPL-3.0 | 始于 May 2024 | 150.2k | 2.6k | 92 | 本周 | 95 | 关注 | · | 0 |",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/microsoft/markitdown",
+    "status": 200,
+    "title": "microsoft/markitdown · 89.3k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #115 | Oct 26, 2026 | GLOBAL RANK | #115 | Oct 26, 2026 | microsoft | / | markitdown | Python tool for converting files and office documents to Markdown. | Python | MIT | 始于 Nov 2024 | 89.3k | 5.2k | 93 | 本周 | 94 | 关",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/clash-verge-rev/clash-verge-rev",
+    "status": 200,
+    "title": "clash-verge-rev/clash-verge-rev · 99.8k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #88 | Oct 26, 2026 | GLOBAL RANK | #88 | Oct 26, 2026 | clash-verge-rev | / | clash-verge-rev | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience | TypeScri",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  },
+  {
+    "href": "/torvalds/linux",
+    "status": 200,
+    "title": "torvalds/linux · 220.2k 关注",
+    "text": "Starboard | Go | 返回首页 |  分享 | GLOBAL RANK | #15 | Oct 26, 2026 | GLOBAL RANK | #15 | Oct 26, 2026 | torvalds | / | linux | Linux kernel source tree | C | NOASSERTION | 始于 Sep 2011 | 220.2k | 60.7k | 93 | 本周 | 94 | 关注 | · | 58 | 提交 | · | 0 | 已解决 | Starboard | #",
+    "hasRepo": true,
+    "buttons": [
+      "Go"
+    ],
+    "inputs": [
+      {
+        "ph": "star-history or star-history/star-history or https://github.com/star-history/star-history",
+        "type": "text"
+      }
+    ],
+    "modal": 0,
+    "errors": []
+  }
+]

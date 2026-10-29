@@ -1,22 +1,19 @@
-import React, { useState } from "react"
+import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import LeftSidebar from "../components/LeftSidebar"
 import RightSidebar from "../components/RightSidebar"
-import RepoInputer from "../components/RepoInputer"
+import RepoSearch from "../components/RepoSearch"
+import StarboardHome from "../components/StarboardHome"
 import type { NextPage } from "next"
-import StarChartViewer from "../components/StarChartViewer"
 import Head from "next/head"
 import { SITE_URL } from "../helpers/consts"
 
 const Index: NextPage = () => {
-    const [isChartVisible, setChartVisibility] = useState(false) // Start with false since chart is not visible by default
-
     const metadata = {
-		title:       "GitHub Star History",
-		description: "View and compare GitHub star history graph of open source projects.",
-		imageURL:    `${SITE_URL}/assets/star-history-preview.webp`,
-	}
+        title: "Starboard · 本周哪些技术在加速",
+        description: "不用搜、不用注册，打开就能看到全球开源项目里谁在真正推进。面向产品经理、投资人和 AI 从业者的技术活跃度雷达。",
+        imageURL: `${SITE_URL}/assets/star-history-preview.webp`,
+    }
 
     return (
         <>
@@ -38,24 +35,28 @@ const Index: NextPage = () => {
                 <meta name="twitter:description" content={metadata.description} />
                 <meta name="twitter:image" content={metadata.imageURL} />
             </Head>
-            <div className="relative w-full h-auto min-h-screen flex flex-col overflow-x-hidden">
+            <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden bg-[#FFFDF7]">
                 <Header />
-                <div className="w-full h-auto grow flex flex-row justify-center">
-                    <div className="w-full px-4 h-auto grow lg:grid lg:grid-cols-[1fr_288px] xl:grid-cols-[240px_1fr_288px] lg:gap-8 xl:gap-24">
-                        <div className="hidden xl:block">
-                            <LeftSidebar />
-                        </div>
 
-                        <div className="w-full flex flex-col justify-start">
-                            <RepoInputer isChartVisible={isChartVisible} setChartVisibility={setChartVisibility} />
-                            {isChartVisible && <StarChartViewer />}
-                        </div>
+                <main className="w-full grow">
+                    <StarboardHome />
 
-                        <div className="hidden lg:block">
-                            <RightSidebar />
+                    <section id="lookup" className="mx-auto mt-14 w-full max-w-3xl px-4">
+                        <div className="text-center">
+                            <h2 className="text-xl font-bold text-neutral-900" style={{ fontFamily: "xkcd, cursive" }}>
+                                想查某个具体项目？
+                            </h2>
+                            <p className="mt-1 text-sm text-neutral-600">
+                                输入项目名，看它从第一天到今天的完整增长曲线。
+                            </p>
                         </div>
+                        <RepoSearch />
+                    </section>
+
+                    <div className="mx-auto mt-10 hidden w-full max-w-md px-4 xl:block">
+                        <RightSidebar />
                     </div>
-                </div>
+                </main>
 
                 <Footer />
             </div>

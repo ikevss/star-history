@@ -1,0 +1,20 @@
+import { Session, newTarget, closeTarget, OUT } from './cdp.mjs';
+import fs from 'node:fs';
+const t = await newTarget('about:blank');
+const s = new Session(t.webSocketDebuggerUrl);
+await s.connect();
+await s.send('Page.enable'); await s.send('Runtime.enable');
+await s.send('Emulation.setDeviceMetricsOverride', { width: 1440, height: 900, deviceScaleFactor: 3, mobile: false });
+await s.send('Page.navigate', { url: 'https://star-history-3wn.pages.dev/vuejs/core' });
+await new Promise(r => setTimeout(r, 4000));
+const box = await s.evaluate(`(() => {
+  const el = [...document.querySelectorAll('*')].find(e=>(e.innerText||'').includes('GLOBAL RANK') && e.children.length>0 && e.getBoundingClientRect().width<200);
+  if (!el) return null;
+  const r = el.getBoundingClientRect();
+  return {x:Math.round(r.x), y:Math.round(r.y), w:Math.round(r.width), h:Math.round(r.height), html: el.outerHTML.slice(0,600)};
+})()`);
+console.log(JSON.stringify(box, null, 2));
+const clip = { x: box.x-6, y: box.y-6, width: box.w+12, height: box.h+12, scale: 3 };
+const r = await s.send('Page.captureScreenshot', { format: 'png', clip });
+fs.writeFileSync(OUT + '/zoom-rank-badge.png', Buffer.from(r.data, 'base64'));
+await s.close(); await closeTarget(t.id);

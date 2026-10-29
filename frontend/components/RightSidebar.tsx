@@ -14,6 +14,9 @@ const RightSidebar: React.FC = () => {
         <div className="sidebar-sticky items-start">
             <div className="w-full px-2 pt-4 flex flex-col justify-start items-start">
                 <WobblyClipDefs id="wobbly-sidebar" />
+                <span className="mb-2 self-center rounded-full border border-neutral-300 bg-neutral-100 px-2 py-0.5 text-[10px] text-neutral-500">
+                    推广
+                </span>
                 {sponsors.map((sponsor) => (
                     <a
                         key={sponsor.name}

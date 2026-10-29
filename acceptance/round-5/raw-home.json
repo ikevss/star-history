@@ -1,0 +1,89 @@
+[
+  {
+    "url": "https://star-history-3wn.pages.dev/",
+    "width": 1440,
+    "height": 900,
+    "mobile": false,
+    "name": "home-1440",
+    "nav": {
+      "frameId": "7191989245871E9642F0F1CED0B6C9DE",
+      "loaderId": "59245A4CD65782EBC59060C7CD3FFA8C",
+      "isDownload": false
+    },
+    "metrics": {
+      "title": "Starboard · 现在什么技术在起飞",
+      "lang": "en",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "bodyScrollWidth": 1425,
+      "bodyClientWidth": 1425,
+      "hasHScroll": false,
+      "docHeight": 3227,
+      "textLen": 3811,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nBlog\n使用说明\n9,649\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw\nAI\n\n来自 openclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\n2\nsystem-prompts-and-models-of-ai-tools\nAI\n\n来自 x1xhlol\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n+2,510\n关注 · 本周\n共 12.7万\n3\nsuperpowers\nAI\n\n来自 obra\n\nAn agentic skills framework & software development methodology that works.\n\n+2,376\n关注 · 本周\n共 6.8万\n4\nskills\nAI\n\n来自 anthropics\n\nPublic repository for Agent Skills\n\n+1,970\n关注 · 本周\n共 8.1万\n5\neverything-claude-code\nAI\n\n来自 affaan-m\n\nThe agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.\n\n+1,855\n关注 · 本周\n共 5.7万\n6\nopencode\nAI\n\n来自 anomalyco\n\nThe open source coding agent.\n\n+1,397\n关注 · 本周\n共 11.4万\n7\nclaude-code\nAI\n\n来自 anthropics\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n+984\n关注 · 本周\n共 7.3万\n8\nprompts.chat\nAI\n\n来自 f\n\nf.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n\n+829\n关注 · 本周\n共 15万\n9\npublic-apis\n后端\n\n来自 public-apis\n\nA collective list of free APIs\n\n+736\n关注 · 本周\n共 40.3万\n10\nbuild-your-own-x\n学习资源\n\n来自 codecrafters-io\n\nMaster programming by recreating your favorite technologies from scratch.\n\n+682\n关注 · 本周\n共 47万\n11\nfirecrawl\nAI\n\n来自 firecrawl\n\n🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data\n\n+617\n关注 · 本周\n共 8.7万\n12\nawesome-llm-apps\nAI\n\n来自 Shubhamsaboo\n\nCollection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\n\n+604\n关注 · 本周\n共 9.9万\n13\ndaytona\nAI\n\n来自 daytonaio\n\nDaytona is a Secure and Elastic Infrastructure for Running AI-Generated Code\n\n+600\n关注 · 本周\n共 6.2万\n14\nawesome\n学习资源\n\n来自 sindresorhus\n\n😎 Awesome lists about all kinds of interesting topics\n\n+577\n关注 · 本周\n共 44.2万\n15\nladybird\n前端\n\n来自 LadybirdBrowser\n\nTruly independent web browser\n\n+523\n关注 · 本周\n共 6.1万\n16\nspec-kit\nAI\n\n来自 github\n\n💫 Toolkit to help you get started with Spec-Driven Development\n\n+504\n关注 · 本周\n共 7.3万\n17\nFreeDomain\n学习资源\n\n来自 DigitalPlatDev\n\nDigitalPlat FreeDomain: Free Domain For Everyone\n\n+490\n关注 · 本周\n共 15万\n18\nmarkitdown\nAI\n\n来自 microsoft\n\nPython tool for converting files and office documents to Markdown.\n\n+489\n关注 · 本周\n共 8.9万\n19\nclash-verge-rev\n后端\n\n来自 clash-verge-rev\n\nA modern GUI client based on"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/home-1440.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/home-1440-full.png"
+  },
+  {
+    "url": "https://star-history-3wn.pages.dev/",
+    "width": 768,
+    "height": 1024,
+    "mobile": false,
+    "name": "home-768",
+    "nav": {
+      "frameId": "41193EA53837ED022CC463C147288721",
+      "loaderId": "9C683AAC6435568446BC6EBBD0DEE186",
+      "isDownload": false
+    },
+    "metrics": {
+      "title": "Starboard · 现在什么技术在起飞",
+      "lang": "en",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "bodyScrollWidth": 753,
+      "bodyClientWidth": 753,
+      "hasHScroll": false,
+      "docHeight": 2603,
+      "textLen": 3502,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nBlog\n使用说明\n9,649\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw\nAI\n\n来自 openclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\n2\nsystem-prompts-and-models-of-ai-tools\nAI\n\n来自 x1xhlol\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n+2,510\n关注 · 本周\n共 12.7万\n3\nsuperpowers\nAI\n\n来自 obra\n\nAn agentic skills framework & software development methodology that works.\n\n+2,376\n关注 · 本周\n共 6.8万\n4\nskills\nAI\n\n来自 anthropics\n\nPublic repository for Agent Skills\n\n+1,970\n关注 · 本周\n共 8.1万\n5\neverything-claude-code\nAI\n\n来自 affaan-m\n\nThe agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.\n\n+1,855\n关注 · 本周\n共 5.7万\n6\nopencode\nAI\n\n来自 anomalyco\n\nThe open source coding agent.\n\n+1,397\n关注 · 本周\n共 11.4万\n7\nclaude-code\nAI\n\n来自 anthropics\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n+984\n关注 · 本周\n共 7.3万\n8\nprompts.chat\nAI\n\n来自 f\n\nf.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n\n+829\n关注 · 本周\n共 15万\n9\npublic-apis\n后端\n\n来自 public-apis\n\nA collective list of free APIs\n\n+736\n关注 · 本周\n共 40.3万\n10\nbuild-your-own-x\n学习资源\n\n来自 codecrafters-io\n\nMaster programming by recreating your favorite technologies from scratch.\n\n+682\n关注 · 本周\n共 47万\n11\nfirecrawl\nAI\n\n来自 firecrawl\n\n🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data\n\n+617\n关注 · 本周\n共 8.7万\n12\nawesome-llm-apps\nAI\n\n来自 Shubhamsaboo\n\nCollection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\n\n+604\n关注 · 本周\n共 9.9万\n13\ndaytona\nAI\n\n来自 daytonaio\n\nDaytona is a Secure and Elastic Infrastructure for Running AI-Generated Code\n\n+600\n关注 · 本周\n共 6.2万\n14\nawesome\n学习资源\n\n来自 sindresorhus\n\n😎 Awesome lists about all kinds of interesting topics\n\n+577\n关注 · 本周\n共 44.2万\n15\nladybird\n前端\n\n来自 LadybirdBrowser\n\nTruly independent web browser\n\n+523\n关注 · 本周\n共 6.1万\n16\nspec-kit\nAI\n\n来自 github\n\n💫 Toolkit to help you get started with Spec-Driven Development\n\n+504\n关注 · 本周\n共 7.3万\n17\nFreeDomain\n学习资源\n\n来自 DigitalPlatDev\n\nDigitalPlat FreeDomain: Free Domain For Everyone\n\n+490\n关注 · 本周\n共 15万\n18\nmarkitdown\nAI\n\n来自 microsoft\n\nPython tool for converting files and office documents to Markdown.\n\n+489\n关注 · 本周\n共 8.9万\n19\nclash-verge-rev\n后端\n\n来自 clash-verge-rev\n\nA modern GUI client based on"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/home-768.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/home-768-full.png"
+  },
+  {
+    "url": "https://star-history-3wn.pages.dev/",
+    "width": 375,
+    "height": 812,
+    "mobile": true,
+    "name": "home-375",
+    "nav": {
+      "frameId": "FF91769F232481D9EF070397ECFE9661",
+      "loaderId": "2AEDAE774B9A798FD6D2D20D7B682CAC",
+      "isDownload": false
+    },
+    "metrics": {
+      "title": "Starboard · 现在什么技术在起飞",
+      "lang": "en",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "bodyScrollWidth": 375,
+      "bodyClientWidth": 375,
+      "hasHScroll": false,
+      "docHeight": 4445,
+      "textLen": 3491,
+      "overflowCount": 0,
+      "overflowSample": [],
+      "bodyText": "Starboard\nBlog\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw\nAI\n\n来自 openclaw\n\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\n\n+7,184\n关注 · 本周\n共 24.6万\n2\nsystem-prompts-and-models-of-ai-tools\nAI\n\n来自 x1xhlol\n\nFULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n+2,510\n关注 · 本周\n共 12.7万\n3\nsuperpowers\nAI\n\n来自 obra\n\nAn agentic skills framework & software development methodology that works.\n\n+2,376\n关注 · 本周\n共 6.8万\n4\nskills\nAI\n\n来自 anthropics\n\nPublic repository for Agent Skills\n\n+1,970\n关注 · 本周\n共 8.1万\n5\neverything-claude-code\nAI\n\n来自 affaan-m\n\nThe agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.\n\n+1,855\n关注 · 本周\n共 5.7万\n6\nopencode\nAI\n\n来自 anomalyco\n\nThe open source coding agent.\n\n+1,397\n关注 · 本周\n共 11.4万\n7\nclaude-code\nAI\n\n来自 anthropics\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.\n\n+984\n关注 · 本周\n共 7.3万\n8\nprompts.chat\nAI\n\n来自 f\n\nf.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n\n+829\n关注 · 本周\n共 15万\n9\npublic-apis\n后端\n\n来自 public-apis\n\nA collective list of free APIs\n\n+736\n关注 · 本周\n共 40.3万\n10\nbuild-your-own-x\n学习资源\n\n来自 codecrafters-io\n\nMaster programming by recreating your favorite technologies from scratch.\n\n+682\n关注 · 本周\n共 47万\n11\nfirecrawl\nAI\n\n来自 firecrawl\n\n🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data\n\n+617\n关注 · 本周\n共 8.7万\n12\nawesome-llm-apps\nAI\n\n来自 Shubhamsaboo\n\nCollection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\n\n+604\n关注 · 本周\n共 9.9万\n13\ndaytona\nAI\n\n来自 daytonaio\n\nDaytona is a Secure and Elastic Infrastructure for Running AI-Generated Code\n\n+600\n关注 · 本周\n共 6.2万\n14\nawesome\n学习资源\n\n来自 sindresorhus\n\n😎 Awesome lists about all kinds of interesting topics\n\n+577\n关注 · 本周\n共 44.2万\n15\nladybird\n前端\n\n来自 LadybirdBrowser\n\nTruly independent web browser\n\n+523\n关注 · 本周\n共 6.1万\n16\nspec-kit\nAI\n\n来自 github\n\n💫 Toolkit to help you get started with Spec-Driven Development\n\n+504\n关注 · 本周\n共 7.3万\n17\nFreeDomain\n学习资源\n\n来自 DigitalPlatDev\n\nDigitalPlat FreeDomain: Free Domain For Everyone\n\n+490\n关注 · 本周\n共 15万\n18\nmarkitdown\nAI\n\n来自 microsoft\n\nPython tool for converting files and office documents to Markdown.\n\n+489\n关注 · 本周\n共 8.9万\n19\nclash-verge-rev\n后端\n\n来自 clash-verge-rev\n\nA modern GUI client based on Tauri, des"
+    },
+    "errors": [],
+    "screenshot": "/workspace/acceptance/round-5/screenshots/home-375.png",
+    "fullScreenshot": "/workspace/acceptance/round-5/screenshots/home-375-full.png"
+  }
+]

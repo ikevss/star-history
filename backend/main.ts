@@ -130,7 +130,16 @@ const startServer = async () => {
           created_at: gh.created_at,
           avatarBase64,
           attributes: cardData.attributes,
+          raw: (cardData as any).raw ?? null,
           rank: cardData.rank,
+          dataDate: repoStore.dataPeriod ? (() => {
+            const p = repoStore.dataPeriod;
+            const month = p.match(/^([A-Za-z]{3})/)?.[1] ?? "";
+            const sameMonth = p.match(/[–-]\s*(\d{1,2}),\s*(\d{4})/);
+            if (sameMonth && month) return `${month} ${sameMonth[1]}, ${sameMonth[2]}`;
+            const otherMonth = p.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/);
+            return otherMonth ? `${otherMonth[1]} ${otherMonth[2]}, ${otherMonth[3]}` : null;
+          })() : null,
         });
         ogCardCache.set(repo, svg);
         return c.body(svg, 200, SVG_HEADERS);

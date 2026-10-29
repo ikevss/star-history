@@ -1,0 +1,21 @@
+{
+  "ghLink": "none",
+  "ghAfter": {
+    "before": "https://star-history-3wn.pages.dev/",
+    "url": "https://star-history-3wn.pages.dev/",
+    "title": "Starboard · 现在什么技术在起飞",
+    "modal": null,
+    "inputs": "[{\"type\":\"text\",\"ph\":\"输入项目名，例如 vuejs/core\"}]",
+    "bodyHead": "Starboard\nBlog\n连接 GitHub\nHow to use this site\n9,648\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw/\nopenc"
+  },
+  "ghErrors": [],
+  "bottomSearch": "{\"ph\":\"输入项目名，例如 vuejs/core\",\"hasBtn\":true}",
+  "bottomSearchResult": {
+    "url": "https://star-history-3wn.pages.dev/vuejs/core",
+    "title": "vuejs/core - 53.1k Stars",
+    "ms": 3010
+  },
+  "projectMobile": "{\"innerW\":375,\"scrollW\":375,\"overflowX\":false,\"bodyLen\":385}",
+  "projectErrors": [],
+  "projectNetBad": []
+}

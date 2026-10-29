@@ -1,0 +1,319 @@
+{
+  "inputs": [
+    {
+      "type": "text",
+      "aria": "搜索开源项目",
+      "ph": "输入项目名，例如 vuejs/core",
+      "cls": "h-11 min-w-0 grow bg-transparent px-3 text-sm text-neutral-900 outline-none placeholder:text-neutral-400"
+    }
+  ],
+  "header": [
+    {
+      "tag": "SPAN",
+      "text": "Starboard",
+      "href": null
+    },
+    {
+      "tag": "SPAN",
+      "text": "Blog",
+      "href": null
+    },
+    {
+      "tag": "SPAN",
+      "text": "9,649",
+      "href": null
+    }
+  ],
+  "navLinks": [
+    {
+      "text": "Starboard",
+      "href": "/"
+    },
+    {
+      "text": "Blog",
+      "href": "/blog"
+    },
+    {
+      "text": "使用说明",
+      "href": "/blog/how-to-use-github-star-history"
+    },
+    {
+      "text": "9,649",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "text": "Blog",
+      "href": "/blog"
+    },
+    {
+      "text": "使用说明",
+      "href": "/blog/how-to-use-github-star-history"
+    },
+    {
+      "text": "9,649",
+      "href": "https://github.com/star-history/star-history"
+    },
+    {
+      "text": "1\nopenclaw\nAI\n\n来自 openclaw\n\nYour own personal AI a",
+      "href": "/openclaw/openclaw"
+    },
+    {
+      "text": "2\nsystem-prompts-and-models-of-ai-tools\nAI\n\n来自 x1x",
+      "href": "/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "text": "3\nsuperpowers\nAI\n\n来自 obra\n\nAn agentic skills frame",
+      "href": "/obra/superpowers"
+    },
+    {
+      "text": "4\nskills\nAI\n\n来自 anthropics\n\nPublic repository for ",
+      "href": "/anthropics/skills"
+    },
+    {
+      "text": "5\neverything-claude-code\nAI\n\n来自 affaan-m\n\nThe agen",
+      "href": "/affaan-m/everything-claude-code"
+    },
+    {
+      "text": "6\nopencode\nAI\n\n来自 anomalyco\n\nThe open source codin",
+      "href": "/anomalyco/opencode"
+    },
+    {
+      "text": "7\nclaude-code\nAI\n\n来自 anthropics\n\nClaude Code is an",
+      "href": "/anthropics/claude-code"
+    },
+    {
+      "text": "8\nprompts.chat\nAI\n\n来自 f\n\nf.k.a. Awesome ChatGPT Pr",
+      "href": "/f/prompts.chat"
+    },
+    {
+      "text": "9\npublic-apis\n后端\n\n来自 public-apis\n\nA collective lis",
+      "href": "/public-apis/public-apis"
+    },
+    {
+      "text": "10\nbuild-your-own-x\n学习资源\n\n来自 codecrafters-io\n\nMast",
+      "href": "/codecrafters-io/build-your-own-x"
+    },
+    {
+      "text": "11\nfirecrawl\nAI\n\n来自 firecrawl\n\n🔥 The Web Data API",
+      "href": "/firecrawl/firecrawl"
+    },
+    {
+      "text": "12\nawesome-llm-apps\nAI\n\n来自 Shubhamsaboo\n\nCollectio",
+      "href": "/shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "text": "13\ndaytona\nAI\n\n来自 daytonaio\n\nDaytona is a Secure a",
+      "href": "/daytonaio/daytona"
+    },
+    {
+      "text": "14\nawesome\n学习资源\n\n来自 sindresorhus\n\n😎 Awesome lists",
+      "href": "/sindresorhus/awesome"
+    },
+    {
+      "text": "15\nladybird\n前端\n\n来自 LadybirdBrowser\n\nTruly independ",
+      "href": "/ladybirdbrowser/ladybird"
+    },
+    {
+      "text": "16\nspec-kit\nAI\n\n来自 github\n\n💫 Toolkit to help you ",
+      "href": "/github/spec-kit"
+    },
+    {
+      "text": "17\nFreeDomain\n学习资源\n\n来自 DigitalPlatDev\n\nDigitalPlat",
+      "href": "/digitalplatdev/freedomain"
+    },
+    {
+      "text": "18\nmarkitdown\nAI\n\n来自 microsoft\n\nPython tool for co",
+      "href": "/microsoft/markitdown"
+    },
+    {
+      "text": "19\nclash-verge-rev\n后端\n\n来自 clash-verge-rev\n\nA moder",
+      "href": "/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "text": "20\nlinux\n后端\n\n来自 torvalds\n\nLinux kernel source tree",
+      "href": "/torvalds/linux"
+    },
+    {
+      "text": "Dify: Open-source platform for building LLM apps, ",
+      "href": "https://dify.ai/?utm_source=star-history"
+    },
+    {
+      "text": "Bytebase: Database DevSecOps for MySQL, PG, Oracle",
+      "href": "https://bytebase.com?utm_source=star-history"
+    },
+    {
+      "text": "Scrape search engine results easily using a simple",
+      "href": "https://serpapi.com/?utm_source=starhistory"
+    },
+    {
+      "text": "Promote your project",
+      "href": "mailto:star@bytebase.com?subject=I'm interested in sponsoring star-history.com"
+    },
+    {
+      "text": "",
+      "href": "mailto:star@bytebase.com"
+    },
+    {
+      "text": "",
+      "href": "https://x.com/StarHistoryHQ"
+    },
+    {
+      "text": "",
+      "href": "https://rss.beehiiv.com/feeds/BbNzf9ozGZ.xml"
+    },
+    {
+      "text": "pgconsole",
+      "href": "https://www.pgconsole.com"
+    },
+    {
+      "text": "pgschema",
+      "href": "https://www.pgschema.com/"
+    },
+    {
+      "text": "DBHub",
+      "href": "https://dbhub.ai"
+    },
+    {
+      "text": "Bytebase",
+      "href": "https://bytebase.com"
+    },
+    {
+      "text": "@tim_qian",
+      "href": "https://x.com/tim_qian"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "aria": "切换菜单",
+      "cls": "relative h-full w-10 px-3 flex flex-row justify-center items-center cursor-point"
+    },
+    {
+      "text": "全部 20",
+      "aria": null,
+      "cls": "rounded-full border-2 px-3.5 py-1.5 text-xs font-medium transition-colors border"
+    },
+    {
+      "text": "AI 13",
+      "aria": null,
+      "cls": "rounded-full border-2 px-3.5 py-1.5 text-xs font-medium transition-colors border"
+    },
+    {
+      "text": "前端 1",
+      "aria": null,
+      "cls": "rounded-full border-2 px-3.5 py-1.5 text-xs font-medium transition-colors border"
+    },
+    {
+      "text": "后端 3",
+      "aria": null,
+      "cls": "rounded-full border-2 px-3.5 py-1.5 text-xs font-medium transition-colors border"
+    },
+    {
+      "text": "学习资源 3",
+      "aria": null,
+      "cls": "rounded-full border-2 px-3.5 py-1.5 text-xs font-medium transition-colors border"
+    },
+    {
+      "text": "查看",
+      "aria": null,
+      "cls": "h-11 shrink-0 border-l-2 border-neutral-900 bg-neutral-900 px-4 text-sm font-med"
+    }
+  ],
+  "cards": [
+    {
+      "href": "/blog/how-to-use-github-star-history",
+      "text": "使用说明"
+    },
+    {
+      "href": "/blog/how-to-use-github-star-history",
+      "text": "使用说明"
+    },
+    {
+      "href": "/openclaw/openclaw",
+      "text": "1 | openclaw | AI |  | 来自 openclaw |  | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |  | +7,184 | 关注 · 本周 | 共 24.6万"
+    },
+    {
+      "href": "/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "text": "2 | system-prompts-and-models-of-ai-tools | AI |  | 来自 x1xhlol |  | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Lea"
+    },
+    {
+      "href": "/obra/superpowers",
+      "text": "3 | superpowers | AI |  | 来自 obra |  | An agentic skills framework & software development methodology that works. |  | +2,376 | 关注 · 本周 | 共 6.8万"
+    },
+    {
+      "href": "/anthropics/skills",
+      "text": "4 | skills | AI |  | 来自 anthropics |  | Public repository for Agent Skills |  | +1,970 | 关注 · 本周 | 共 8.1万"
+    },
+    {
+      "href": "/affaan-m/everything-claude-code",
+      "text": "5 | everything-claude-code | AI |  | 来自 affaan-m |  | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first"
+    },
+    {
+      "href": "/anomalyco/opencode",
+      "text": "6 | opencode | AI |  | 来自 anomalyco |  | The open source coding agent. |  | +1,397 | 关注 · 本周 | 共 11.4万"
+    },
+    {
+      "href": "/anthropics/claude-code",
+      "text": "7 | claude-code | AI |  | 来自 anthropics |  | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fa"
+    },
+    {
+      "href": "/f/prompts.chat",
+      "text": "8 | prompts.chat | AI |  | 来自 f |  | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host f"
+    },
+    {
+      "href": "/public-apis/public-apis",
+      "text": "9 | public-apis | 后端 |  | 来自 public-apis |  | A collective list of free APIs |  | +736 | 关注 · 本周 | 共 40.3万"
+    },
+    {
+      "href": "/codecrafters-io/build-your-own-x",
+      "text": "10 | build-your-own-x | 学习资源 |  | 来自 codecrafters-io |  | Master programming by recreating your favorite technologies from scratch. |  | +682 | 关注 · 本周 | 共 47万"
+    },
+    {
+      "href": "/firecrawl/firecrawl",
+      "text": "11 | firecrawl | AI |  | 来自 firecrawl |  | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data |  | +617 | 关注 · 本周 | 共 "
+    },
+    {
+      "href": "/shubhamsaboo/awesome-llm-apps",
+      "text": "12 | awesome-llm-apps | AI |  | 来自 Shubhamsaboo |  | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models"
+    },
+    {
+      "href": "/daytonaio/daytona",
+      "text": "13 | daytona | AI |  | 来自 daytonaio |  | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code |  | +600 | 关注 · 本周 | 共 6.2万"
+    },
+    {
+      "href": "/sindresorhus/awesome",
+      "text": "14 | awesome | 学习资源 |  | 来自 sindresorhus |  | 😎 Awesome lists about all kinds of interesting topics |  | +577 | 关注 · 本周 | 共 44.2万"
+    },
+    {
+      "href": "/ladybirdbrowser/ladybird",
+      "text": "15 | ladybird | 前端 |  | 来自 LadybirdBrowser |  | Truly independent web browser |  | +523 | 关注 · 本周 | 共 6.1万"
+    },
+    {
+      "href": "/github/spec-kit",
+      "text": "16 | spec-kit | AI |  | 来自 github |  | 💫 Toolkit to help you get started with Spec-Driven Development |  | +504 | 关注 · 本周 | 共 7.3万"
+    },
+    {
+      "href": "/digitalplatdev/freedomain",
+      "text": "17 | FreeDomain | 学习资源 |  | 来自 DigitalPlatDev |  | DigitalPlat FreeDomain: Free Domain For Everyone |  | +490 | 关注 · 本周 | 共 15万"
+    },
+    {
+      "href": "/microsoft/markitdown",
+      "text": "18 | markitdown | AI |  | 来自 microsoft |  | Python tool for converting files and office documents to Markdown. |  | +489 | 关注 · 本周 | 共 8.9万"
+    },
+    {
+      "href": "/clash-verge-rev/clash-verge-rev",
+      "text": "19 | clash-verge-rev | 后端 |  | 来自 clash-verge-rev |  | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experi"
+    },
+    {
+      "href": "/torvalds/linux",
+      "text": "20 | linux | 后端 |  | 来自 torvalds |  | Linux kernel source tree |  | +453 | 关注 · 本周 | 共 22万"
+    }
+  ],
+  "cardCount": 22,
+  "bodySnippet": "Starboard\nBlog\n使用说明\n9,649\n数据周期 · Feb 23 – Mar 1, 2026\n\n当前展示的是最近一次完整统计周期，最新一周仍在采集。\n\n现在什么技术在起飞？\n\n不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。\n\n全部 20\nAI 13\n前端 1\n后端 3\n学习资源 3\n1\nopenclaw\nAI\n\n来自 openclaw\n\nYour own person",
+  "h1": "现在什么技术在起飞？",
+  "views": {
+    "header": true,
+    "search": true
+  }
+}
