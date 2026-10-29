@@ -13,6 +13,7 @@ export interface RepoRawMetrics {
   contributors: number;
   issues_closed: number;
   forks: number;
+  activity: number;
 }
 
 export interface RepoCardData {

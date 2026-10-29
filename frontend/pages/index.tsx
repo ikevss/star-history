@@ -10,8 +10,8 @@ import { SITE_URL } from "../helpers/consts"
 
 const Index: NextPage = () => {
     const metadata = {
-        title: "Starboard · 现在什么技术在起飞",
-        description: "不用搜、不用注册，打开就能看到全球开源项目里谁在涨、涨多快。面向产品经理、投资人和 AI 从业者的技术热度雷达。",
+        title: "Starboard · 本周哪些技术在加速",
+        description: "不用搜、不用注册，打开就能看到全球开源项目里谁在真正推进。面向产品经理、投资人和 AI 从业者的技术活跃度雷达。",
         imageURL: `${SITE_URL}/assets/star-history-preview.webp`,
     }
 

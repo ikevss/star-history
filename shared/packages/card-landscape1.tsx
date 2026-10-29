@@ -378,23 +378,23 @@ export function buildLandscape1(data: Landscape1Data) {
               h("span", { style: { fontSize: 16, color: "#a3a3a3", letterSpacing: "0.08em" } }, "本周"),
               h(
                 "div",
-                { title: `新增关注：${data.attributes.new_stars} · 超过 ${100 - data.attributes.new_stars}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
-                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.new_stars ?? data.attributes.new_stars)),
-                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "关注"),
-              ),
-              h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
-              h(
-                "div",
-                { title: `代码提交：${data.attributes.pushes} · 超过 ${100 - data.attributes.pushes}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                { title: `代码提交：${data.raw?.pushes ?? data.attributes.pushes} · 超过 ${100 - data.attributes.pushes}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
                 h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.pushes ?? data.attributes.pushes)),
                 h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "提交"),
               ),
               h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
               h(
                 "div",
-                { title: `已解决问题：${data.attributes.issues_closed} · 超过 ${100 - data.attributes.issues_closed}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                { title: `已解决问题：${data.raw?.issues_closed ?? data.attributes.issues_closed} · 超过 ${100 - data.attributes.issues_closed}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
                 h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.issues_closed ?? data.attributes.issues_closed)),
                 h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "已解决"),
+              ),
+              h("span", { style: { fontSize: 14, color: "#d4d4d4" } }, "\u00b7"),
+              h(
+                "div",
+                { title: `贡献者：${data.raw?.contributors ?? data.attributes.contributors} · 超过 ${100 - data.attributes.contributors}%`, style: { display: "flex", alignItems: "baseline", gap: 5 } },
+                h("span", { style: { fontSize: 34, fontWeight: "bold", color: "#525252" } }, String(data.raw?.contributors ?? data.attributes.contributors)),
+                h("span", { style: { fontSize: 15, color: "#a3a3a3" } }, "贡献者"),
               ),
             )
           : null,

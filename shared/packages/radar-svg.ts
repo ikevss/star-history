@@ -15,7 +15,7 @@ interface RepoAttributes {
   forks: number;
 }
 
-const LABELS = ["关注", "本周新增", "已解决问题", "贡献者", "代码提交", "复刻"];
+const LABELS = ["关注", "本周提交", "已解决问题", "贡献者", "代码提交", "复刻"];
 const KEYS: (keyof RepoAttributes)[] = ["stars", "new_stars", "issues_closed", "contributors", "pushes", "forks"];
 
 // Seeded PRNG so the wobble is deterministic.

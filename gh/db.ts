@@ -161,20 +161,42 @@ export function exportLeaderboard(db: Database.Database, updatedAt: string, limi
   console.log(`Exported top ${rows.length} repos to leaderboard.json`);
 }
 
+export function activityScore(r: { pushes: number; unique_contributors: number; issues_closed: number }): number {
+  return r.pushes + r.unique_contributors * 2 + r.issues_closed * 3;
+}
+
 export function exportWeeklyRanking(db: Database.Database, updatedAt: string, limit = 20): void {
   const rows = db.prepare(`
-    SELECT w.repo_name AS name, w.new_stars, r.stars_total
+    SELECT w.repo_name AS name, w.new_stars, w.pushes, w.unique_contributors, w.issues_closed, r.stars_total
     FROM weekly_stats w
     JOIN repos r ON r.name = w.repo_name
     WHERE w.week = (SELECT MAX(week) FROM weekly_stats)
-    ORDER BY w.new_stars DESC
+    ORDER BY (w.pushes + w.unique_contributors * 2 + w.issues_closed * 3) DESC
     LIMIT ?
-  `).all(limit) as { name: string; new_stars: number; stars_total: number }[];
+  `).all(limit) as {
+    name: string;
+    new_stars: number;
+    pushes: number;
+    unique_contributors: number;
+    issues_closed: number;
+    stars_total: number;
+  }[];
 
-  const output = { updated_at: updatedAt, repos: rows };
+  const output = {
+    updated_at: updatedAt,
+    metric: "activity",
+    repos: rows.map((r) => ({
+      name: r.name,
+      pushes: r.pushes,
+      contributors: r.unique_contributors,
+      issues_closed: r.issues_closed,
+      activity: activityScore(r),
+      stars_total: r.stars_total,
+    })),
+  };
   const outPath = path.join(DATA_DIR, "weekly-ranking.json");
   writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n");
-  console.log(`Exported top ${rows.length} repos by weekly stars to weekly-ranking.json`);
+  console.log(`Exported top ${rows.length} repos by weekly activity to weekly-ranking.json`);
 }
 
 export function exportRepos(db: Database.Database): void {
@@ -286,6 +308,11 @@ export function exportRepos(db: Database.Database): void {
         contributors: rawValues.contributors[i],
         issues_closed: rawValues.issues_closed[i],
         forks: rawValues.forks[i],
+        activity: activityScore({
+          pushes: rawValues.pushes[i],
+          unique_contributors: rawValues.contributors[i],
+          issues_closed: rawValues.issues_closed[i],
+        }),
       },
     };
   });

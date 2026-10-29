@@ -70,7 +70,7 @@ export default function RepoMobileCard({ repo }: { repo: RepoCardData }) {
             <div className="mt-4 grid grid-cols-2 gap-2">
                 <Stat label="关注" value={formatNumber(repo.stars_total)} />
                 <Stat label="复刻" value={formatNumber(repo.forks_count)} />
-                <Stat label="本周新增关注" value={repo.raw ? `+${formatNumber(repo.raw.new_stars)}` : "—"} accent />
+                <Stat label="本周提交" value={repo.raw ? `${repo.raw.pushes.toLocaleString("en-US")}` : "—"} accent />
                 <Stat label="贡献者" value={repo.raw ? formatNumber(repo.raw.contributors) : "—"} />
             </div>
 

@@ -4,7 +4,7 @@ import Link from "next/link"
 import weeklyRankingData from "@gh-data/weekly-ranking.json"
 import reposData from "@gh-data/repos.json"
 import starCountData from "@gh-data/star-count.json"
-import { classifyDomain, formatCount, formatDelta, prettyRepoName, DOMAINS, type Domain } from "../helpers/domains"
+import { classifyDomain, formatCount, prettyRepoName, DOMAINS, type Domain } from "../helpers/domains"
 
 type RawRepo = {
     name: string
@@ -16,7 +16,10 @@ type RawRepo = {
 
 type Mover = {
     name: string
-    newStars: number
+    pushes: number
+    contributors: number
+    issuesClosed: number
+    activity: number
     totalStars: number
     description: string
     language: string | null
@@ -26,7 +29,15 @@ type Mover = {
 
 const weeklyRanking = weeklyRankingData as {
     updated_at: string
-    repos: { name: string; new_stars: number; stars_total: number }[]
+    metric: string
+    repos: {
+        name: string
+        pushes: number
+        contributors: number
+        issues_closed: number
+        activity: number
+        stars_total: number
+    }[]
 }
 const repos = (reposData as { min_stars: number; repos: RawRepo[] }).repos
 const starCount = starCountData as {
@@ -40,7 +51,10 @@ const movers: Mover[] = weeklyRanking.repos.map((w) => {
     const meta = repoMap.get(w.name)
     return {
         name: w.name,
-        newStars: w.new_stars,
+        pushes: w.pushes,
+        contributors: w.contributors,
+        issuesClosed: w.issues_closed,
+        activity: w.activity,
         totalStars: w.stars_total,
         description: meta?.description ?? "",
         language: meta?.language ?? null,
@@ -52,6 +66,15 @@ const movers: Mover[] = weeklyRanking.repos.map((w) => {
 const totalTracked = repos.length
 const tier50k = starCount.tiers.find((t) => t.threshold === 50000)?.count ?? totalTracked
 
+const domainStyles: Record<Domain, string> = {
+    AI: "bg-emerald-100 text-emerald-800 border-emerald-300",
+    前端: "bg-sky-100 text-sky-800 border-sky-300",
+    后端: "bg-violet-100 text-violet-800 border-violet-300",
+    开发工具: "bg-amber-100 text-amber-800 border-amber-300",
+    学习资源: "bg-rose-100 text-rose-800 border-rose-300",
+    其他: "bg-neutral-100 text-neutral-700 border-neutral-300",
+}
+
 function weekEndDate(label: string): Date | null {
     const m = label.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/)
     if (!m) return null
@@ -62,15 +85,6 @@ function weekEndDate(label: string): Date | null {
 const dataEnd = weekEndDate(weeklyRanking.updated_at)
 const dataAgeDays = dataEnd ? Math.floor((Date.now() - dataEnd.getTime()) / 86400000) : 0
 const isStale = dataAgeDays > 14
-
-const domainStyles: Record<Domain, string> = {
-    AI: "bg-emerald-100 text-emerald-800 border-emerald-300",
-    前端: "bg-sky-100 text-sky-800 border-sky-300",
-    后端: "bg-violet-100 text-violet-800 border-violet-300",
-    开发工具: "bg-amber-100 text-amber-800 border-amber-300",
-    学习资源: "bg-rose-100 text-rose-800 border-rose-300",
-    其他: "bg-neutral-100 text-neutral-700 border-neutral-300",
-}
 
 function DomainPill({ domain }: { domain: Domain }) {
     return (
@@ -108,11 +122,12 @@ function MoverCard({ mover, index }: { mover: Mover; index: number }) {
 
             <div className="mt-3 flex items-end justify-between gap-2">
                 <div className="flex items-baseline gap-1.5">
-                    <span className="text-lg font-bold text-emerald-600">{formatDelta(mover.newStars)}</span>
-                    <span className="text-[11px] text-neutral-500">关注 · 本周</span>
+                    <span className="text-lg font-bold text-emerald-600">{mover.pushes.toLocaleString("en-US")}</span>
+                    <span className="text-[11px] text-neutral-500">次提交 · 本周</span>
                 </div>
-                <div className="flex items-center gap-2">
-                    <span className="text-[11px] text-neutral-400">共 {formatCount(mover.totalStars)}</span>
+                <div className="text-right text-[11px] leading-4 text-neutral-400">
+                    <div>{mover.contributors.toLocaleString("en-US")} 位贡献者</div>
+                    <div>{mover.issuesClosed.toLocaleString("en-US")} 个问题已解决</div>
                 </div>
             </div>
         </Link>
@@ -135,24 +150,21 @@ export default function StarboardHome() {
 
     const aiCount = movers.filter((m) => m.domain === "AI").length
     const top = movers[0]
-    const perHour = top ? Math.round(top.newStars / (7 * 24)) : 0
+    const totalPushes = movers.reduce((sum, m) => sum + m.pushes, 0)
 
     return (
         <section className="w-full">
             <div className="mx-auto w-full max-w-6xl px-4 pt-10 pb-6 text-center">
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-neutral-300 bg-white px-3 py-1 text-[11px] text-neutral-600">
                     <span className={`inline-block h-1.5 w-1.5 rounded-full ${isStale ? "bg-amber-500" : "animate-pulse bg-emerald-500"}`} />
-                    数据周期 · {weeklyRanking.updated_at}
+                    本周数据 · {weeklyRanking.updated_at}
                 </div>
-                {isStale && (
-                    <p className="mb-1 text-[11px] text-amber-600">当前展示的是最近一次完整统计周期，最新一周仍在采集。</p>
-                )}
 
                 <h1 className="text-3xl font-bold leading-tight tracking-tight text-neutral-900 sm:text-4xl md:text-5xl" style={{ fontFamily: "xkcd, cursive" }}>
-                    现在什么技术在起飞？
+                    本周哪些技术在加速？
                 </h1>
                 <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-neutral-600 sm:text-base">
-                    不用搜、不用注册。打开就能看到全球开源项目里，谁在涨、涨多快。
+                    不用搜、不用注册。打开就能看到全球开源项目里，谁在真正推进。
                 </p>
             </div>
 
@@ -205,16 +217,22 @@ export default function StarboardHome() {
                         <li className="flex gap-2">
                             <span className="text-emerald-600">●</span>
                             <span>
-                                这个周期涨得最快的 20 个项目里，有 <strong>{aiCount}</strong> 个是 AI 相关——这是当下最集中的技术方向。
+                                本周最活跃的 20 个项目一共提交了 <strong>{totalPushes.toLocaleString("en-US")}</strong> 次代码——这是「真正有人在推进」的信号。
+                            </span>
+                        </li>
+                        <li className="flex gap-2">
+                            <span className="text-emerald-600">●</span>
+                            <span>
+                                其中 <strong>{aiCount}</strong> 个是 AI 相关项目，说明 AI 工具链仍是最活跃的开发方向。
                             </span>
                         </li>
                         {top && (
                             <li className="flex gap-2">
                                 <span className="text-emerald-600">●</span>
                                 <span>
-                                    第一名 <strong>{prettyRepoName(top.name).repo}</strong> 一周新增{" "}
-                                    <strong>{top.newStars.toLocaleString("en-US")}</strong> 个关注，平均每小时约{" "}
-                                    <strong>{perHour}</strong> 个。
+                                    第一名 <strong>{prettyRepoName(top.name).repo}</strong> 一周内提交{" "}
+                                    <strong>{top.pushes.toLocaleString("en-US")}</strong> 次代码，有{" "}
+                                    <strong>{top.contributors.toLocaleString("en-US")}</strong> 位贡献者参与。
                                 </span>
                             </li>
                         )}

@@ -81,9 +81,13 @@ interface RepoPageProps {
 }
 
 function formatDataDate(period: string): string | null {
-    const m = period.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/)
-    if (!m) return null
-    return `${m[1]} ${m[2]}, ${m[3]}`
+    const leadingMonth = period.match(/^([A-Za-z]{3})/)
+    const month = leadingMonth ? leadingMonth[1] : ""
+    const sameMonth = period.match(/[–-]\s*(\d{1,2}),\s*(\d{4})/)
+    if (sameMonth && month) return `${month} ${sameMonth[1]}, ${sameMonth[2]}`
+    const otherMonth = period.match(/[–-]\s*([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/)
+    if (otherMonth) return `${otherMonth[1]} ${otherMonth[2]}, ${otherMonth[3]}`
+    return null
 }
 
 const Toolbar = ({ onDownload, downloading, tweetUrl }: { onDownload: () => void; downloading: boolean; tweetUrl: string }) => (
